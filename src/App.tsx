@@ -1,7 +1,11 @@
-import React from "react";
+import { MainPage } from "@components/home/MainPage";
 
 function App() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <MainPage />
+    </div>
+  );
 }
 
 export default App;
