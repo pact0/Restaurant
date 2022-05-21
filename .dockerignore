@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+.vscode
+.editorconfig
+.eslintrc.json
+.gitignore
+.git
+.prettierignore
+.prettierrc
+babel.config.json
+docker-compose.yml
+jest.config.js
+jest.preset.js
