@@ -1,29 +1,25 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./",
     "rootDir": "./src",
-    "outDir": "./dist",
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
     "jsx": "react-jsx",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "outDir": "dist",
+    "target": "ESNext",
+    "sourceMap": true,
     "paths": {
-      "@components/*": ["./src/components/*"],
-      "@common/*": ["common/*"],
-      "@reducers/*": ["./src/reducers/*"],
-      "@root/*": ["src/*"]
+      "@components/*": ["src/components/*"],
+      "@models/*": ["src/models/*"],
+      "@assets/*": ["src/assets/*"],
+      "@common/*": ["src/common/*"],
+      "@reducers/*": ["src/reducers/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src/"],
+  "exclude": ["node_modules", "dist"],
+  "transform": "typescript-transform-paths"
 }
