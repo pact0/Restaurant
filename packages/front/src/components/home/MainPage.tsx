@@ -12,7 +12,7 @@ import Image from '../assets/img/background.jpg';
 export const MainPage = () => {
   return  <Container maxWidth="sm"
   sx={{
-    backgroundImage: `url(https://images2.alphacoders.com/208/thumb-1920-208392.jpg)`,
+    backgroundImage: `url(https://i.ibb.co/ygXF9dT/thumb-1920-208392-1.jpg)`,
     backgroundRepeat: "no-repeat",
     backdropFilter: "blur(8px)",
     backgroundSize: 'cover',
