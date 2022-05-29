@@ -1,0 +1,40 @@
+.view {
+    background-image: url(https://images.wallpaperscraft.com/image/single/hamburger_burger_meat_vegetables_116725_3840x2160.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: '100vh'
+}
+
+.whiteForm{
+    color: white;
+}
+
+.full-bg-img {
+    color: #fff;
+}
+
+.title {
+    font-weight:100;
+}
+
+.payment .fa:not(:first-child) {
+    margin-left:10px;
+    color:rgba(255,255,255,.8);
+}
+
+input[type="text"]:focus:not([readonly]) {
+    border-color:#C00;
+    box-shadow:0 1px 0 0 #C00;
+    color:#fff;
+}
+
+input[type="text"]:not([readonly])+label {
+    color:rgba(255,255,255,.65);
+}
+
+input[type="text"]:focus:not([readonly])+label {
+    color:#fff;
+}
