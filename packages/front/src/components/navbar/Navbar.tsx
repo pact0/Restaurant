@@ -5,6 +5,7 @@ import ProductDetailed from "../products/ProductDetailed";
 import { AppBar, Toolbar, IconButton, Typography, Stack, Button} from "@mui/material"
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
+import Container from '@mui/material/Container';
 
 export const Navbar = (props: {}) => {
   return (

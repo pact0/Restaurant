@@ -11,7 +11,7 @@ import ProductDetailed from "./products/ProductDetailed";
 const App = () => (
   <div>
     <Navbar />
-    <ProductDetailed prod={restaurant_menu.restaurant_menu[0]}/>
+    <MainPage />
   </div>
 );
 
