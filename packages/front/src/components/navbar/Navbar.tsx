@@ -1,5 +1,7 @@
 import { About } from "@components/about/About";
 import { MainPage } from "@components/home/MainPage";
+import Login from "../auth/Login";
+import Register from "../auth/Register";
 import restaurant_menu from "@assets/restaurant-data.json";
 import ProductDetailed from "../products/ProductDetailed";
 import { AppBar, Toolbar, IconButton, Typography, Stack, Button} from "@mui/material"
@@ -32,9 +34,9 @@ export const Navbar = (props: {}) => {
           <Route path="/about" element={<About />} />
           <Route path="/home" element={<MainPage />} />
           <Route path="/menu" element={<ProductDetailed prod={restaurant_menu.restaurant_menu[0]}/>} />
-          {/* <Route path="/contact" element={<Contact />} />
+           {/* <Route path="/contact" element={<Register />} /> */}
           <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} /> */}
+          <Route path="/register" element={<Register />} />
         </Routes>
       </AppBar>
   );
