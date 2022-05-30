@@ -9,7 +9,7 @@ import Container from '@mui/material/Container';
 
 export const Navbar = (props: {}) => {
   return (
-      <AppBar style={{background: '#d42c2c'}}>
+      <AppBar style={{background: '#384399'}}>
         <Toolbar >
 
           <IconButton size="large" edge="start" color="inherit" aria-label="logo">
