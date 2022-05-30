@@ -1,5 +1,7 @@
 import { About } from "@components/about/About";
 import { MainPage } from "@components/home/MainPage";
+import restaurant_menu from "@assets/restaurant-data.json";
+import ProductDetailed from "../products/ProductDetailed";
 import { AppBar, Toolbar, IconButton, Typography, Stack, Button} from "@mui/material"
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
@@ -28,8 +30,8 @@ export const Navbar = (props: {}) => {
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/home" element={<MainPage />} />
-          {/* <Route path="/menu" element={<Menu />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/menu" element={<ProductDetailed prod={restaurant_menu.restaurant_menu[0]}/>} />
+          {/* <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} /> */}
         </Routes>
