@@ -19,16 +19,16 @@ export default function ProductDetailed({prod}) {
 
   const [value, setValue] = React.useState<number | null>(2);
     return (
-      <Container sx={{background:'#21242e',height:'90vh',minWidth:'100%'}}>
+      <Container sx={{background:'#21242e',height:'100vh',minWidth:'100%'}}>
       <Container>         
       <Grid container spacing={2} sx={{minWidth:'75%'}}>
             <Grid item xs={12} sm={6} sx={{
-            backgroundImage: 'url(https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/516559f5-389b-4215-a858-4695ffd38c9a.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1200%2C960&w=1920)',
+            backgroundImage: 'url(' + prod.image + ')',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             mt:2,
-            height:"90vh"
+            height:"100vh"
           }}>
             </Grid>
           
@@ -64,7 +64,7 @@ export default function ProductDetailed({prod}) {
 
 
 
-           <Typography sx ={{color: 'black',fontWeight: 300,fontSize:14,my:2}}>
+           <Typography sx ={{color: 'black',fontWeight: 300,fontSize:14,my:2,py:5,pr:5,pl:0}}>
               {prod.desc}
             </Typography>
 

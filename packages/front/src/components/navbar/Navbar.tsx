@@ -3,10 +3,13 @@ import { MainPage } from "@components/home/MainPage";
 import Login from "../auth/Login";
 import Register from "../auth/Register";
 import restaurant_menu from "@assets/restaurant-data.json";
-import ProductDetailed from "../products/ProductDetailed";
+import {ListingPage} from "../products/ListingPage";
 import { AppBar, Toolbar, IconButton, Typography, Stack, Button} from "@mui/material"
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
+import ProductDetailed from "../products/ProductDetailed";
+import { Product } from "@models/Product";
+
 import Container from '@mui/material/Container';
 
 export const Navbar = (props: {}) => {
@@ -33,10 +36,15 @@ export const Navbar = (props: {}) => {
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/home" element={<MainPage />} />
-          <Route path="/menu" element={<ProductDetailed prod={restaurant_menu.restaurant_menu[0]}/>} />
+          <Route path="/menu" element={<ListingPage />} />
            {/* <Route path="/contact" element={<Register />} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          {restaurant_menu.restaurant_menu.map((product: Product) => {
+            var str1="/";
+            var x = str1.concat(product.id);
+        return     <Route path={x} element={<ProductDetailed prod={product} />} />
+      })}
         </Routes>
       </AppBar>
   );

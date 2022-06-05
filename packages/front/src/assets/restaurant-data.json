@@ -1,6 +1,7 @@
 {
     "restaurant_menu": [
         {
+            "id": 1,
             "name": "Poniedziałek Lunch",
             "category": "LUNCH",
             "price": "29,00 zł",
@@ -8,42 +9,44 @@
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/516559f5-389b-4215-a858-4695ffd38c9a.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1200%2C960&w=1920",
             "allergens": {
                 "lactose": 1,
-                "gluten": 1,
+                "gluten": 0,
                 "mushrooms": 1,
-                "nuts": 1,
+                "nuts": 0,
                 "soya": 1
             },
             "nutrition": {
-                "fat": 16,
-                "sodium": 19,
-                "protein": 25,
-                "carb": 15,
-                "calories": 370
+                "fat": 7,
+                "sodium": 25,
+                "protein": 6,
+                "carb": 30,
+                "calories": 488
             }
         },
         {
+            "id": 2,
             "name": "Wtorek Lunch",
             "category": "LUNCH",
             "price": "29,00 zł",
             "desc": "CHICKEN TIKKA MASALA..Swieza posiekana cebula, pomidor, zielone chilli, cytryna, swieza kolendra, swiezy sok z cytryny gotowany z sekrytny przepisem szefa kuchni bawarchi..i RAJMA: Fasola Rajma gotowana z cebulą, pomidorami kolendrowymi i specjalną mieszanką przyprawlub KADHAI PANEER...ser indyjski w pikantnym sosie paprykowym..i RAJMA: Fasola Rajma gotowana z cebulą, pomidorami kolendrowymi i specjalną mieszanką przypraw lubLAMB BALTI..Jagnięcina w gęsty sos na bazie cebuli, pomidorów, nasion gorczycy oraz chilli i RAJMA: Fasola Rajma gotowana z cebulą, pomidorami kolendrowymi i specjalną mieszanką przypraw",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/a0e318fc-74d9-4aaf-b31d-ade5eb120561.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1200%2C960&w=1920",
             "allergens": {
-                "lactose": 0,
+                "lactose": 1,
                 "gluten": 0,
                 "mushrooms": 1,
-                "nuts": 0,
+                "nuts": 1,
                 "soya": 0
             },
             "nutrition": {
                 "fat": 4,
-                "sodium": 39,
-                "protein": 11,
-                "carb": 31,
-                "calories": 581
+                "sodium": 31,
+                "protein": 25,
+                "carb": 24,
+                "calories": 272
             }
         },
         {
-            "name": "środa Lunch",
+            "id": 3,
+            "name": "Środa Lunch",
             "category": "LUNCH",
             "price": "29,00 zł",
             "desc": "KADHAI CHICKEN..Soczyste kawałki piersi z kurczaka w warzywnym sosie z cebuli, pomidorów, papryki oraz suszonych nasion kolendry z mieszanką indyjskich przypraw..i CHANA MASALA PINDI:Gotowana ciecierzyca, kilka kawałków sera paneer w pikantnym sosie cebulowo-pomidorowymlubPANEER TIKKA MASALA..Swieza posiekana cebula, pomidor, zielone chilli, cytryna, swieza kolendra, swiezy sok z cytryny gotowany z sekrytny przepisem szefa kuchni bawarchi..i Chana Masala Pindi: Gotowana ciecierzyca, kilka kawałków sera paneer w pikantnym sosie cebulowo-pomidorowymlubLAMB PALAK..Gotowana jagnięcina w pikantny sos szpinakowo-czosnkowy z aromatycznymi przyprawami i Chana Masala Pindi: Gotowana ciecierzyca, kilka kawałków sera paneer w pikantnym sosie cebulowo-pomidorowym",
@@ -51,570 +54,25 @@
             "allergens": {
                 "lactose": 0,
                 "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 1,
+                "mushrooms": 1,
+                "nuts": 0,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 18,
-                "sodium": 29,
-                "protein": 3,
-                "carb": 16,
-                "calories": 214
+                "fat": 12,
+                "sodium": 35,
+                "protein": 28,
+                "carb": 18,
+                "calories": 417
             }
         },
         {
+            "id": 4,
             "name": "Czwartek Lunch",
             "category": "LUNCH",
             "price": "29,00 zł",
             "desc": "CHICKEN CURRY..Tradycyjne curry gotowane w aromatycznym sosie. i DAAL MAKHANI..Czarna soczewica w tradycyjnym kremowym sosie z masłem.lubPANEER CURRY:indyjskie ser paneer w Tradycyjne curry gotowane w aromatycznym sos iDAAL MAKHANI..Czarna soczewica w tradycyjnym kremowym sosie z masłemLUBLAMB KADHAI.Jagnięcina w warzywnym sosie z cebuli pomidorów, papryki oraz suszonych nasion kolendry z mieszanką indyjskich przypraw. i DAAL MAKHANI..Czarna soczewica w tradycyjnym kremowym sosie z masłem",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/cdc8603c-4ca2-45c5-a2a9-85ff0204636d.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1200%2C960&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 24,
-                "sodium": 10,
-                "protein": 29,
-                "carb": 18,
-                "calories": 327
-            }
-        },
-        {
-            "name": "Piątek Lunch",
-            "category": "LUNCH",
-            "price": "29,00 zł",
-            "desc": "CHICKEN MASALA NEPAL Tradycyjne nepalskie curry z mieszanka przypraw masala.i RAJMA:gotowana z cebulą, pomidorami kolendrowymi i specjalną mieszanką przyprawlubPALAK PANEER:Ser indyjski w aromatycznym sosie szpinakowym.iRAJMA: gotowana z cebulą, pomidorami kolendrowymi i specjalną mieszanką przyprawlubLAMB MASALA NEPAL.Jagnięcina w tradycyjny wytrawny sos na bazie nepalskich przypraw z orzeszkami nerkowca I  RAJMA: gotowana z cebulą, pomidorami kolendrowymi i specjalną mieszanką przypraw.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/87b923fc-5bc9-48dd-bb90-9814a193e0db.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1200%2C960&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 6,
-                "sodium": 34,
-                "protein": 10,
-                "carb": 19,
-                "calories": 334
-            }
-        },
-        {
-            "name": "TAKA TAK",
-            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
-            "price": "43,00 zł",
-            "desc": "PANEER Kawałki smażonego i mielonego sera paneer z pomidorami cebulą i papryką w sekretnym sosie szefaCHICKEN LAMB KREWETKIPieczony soczysty kurczak sekretny przepis z milonej jagnięcina,pomidorami,cebulą oraz papryką",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/6b8dde24-5320-442d-9022-115e15300071.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C943%2C943&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 18,
-                "sodium": 10,
-                "protein": 9,
-                "carb": 34,
-                "calories": 413
-            }
-        },
-        {
-            "name": "BHUNA LAMB MASALEDAAR",
-            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
-            "price": "53,00 zł",
-            "desc": "Gotowana jagnięcina w mielonej jagnięcinie w indyjskim sosie aromatycznym z posiekaną cebulą pomidorowym zielonym chili i świeżą kolendrą",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/55c6eda3-7bc1-40fb-83e5-e4efe04425f5.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C960%2C909&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 0,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 25,
-                "sodium": 8,
-                "protein": 25,
-                "carb": 33,
-                "calories": 236
-            }
-        },
-        {
-            "name": "PANEER MATAR  MUSHROOM",
-            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
-            "price": "39,00 zł",
-            "desc": "Indyjski ser paneer z zielonym groszkiem i pieczarkami w wytrawnym sosie pomidorowo cebulowym",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/a3f28b2e-1e8f-479d-9224-e555fc88a321.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 23,
-                "sodium": 15,
-                "protein": 5,
-                "carb": 32,
-                "calories": 579
-            }
-        },
-        {
-            "name": "OKRA BHINDI MASALA",
-            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
-            "price": "41,00 zł",
-            "desc": "świeża soczysta okra gotowana w paście czosnkowej z kminem, cebulą,pomidorami oraz bogatą kompozycją indyjskich aromatycznych przypraw",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/f532d96f-bb02-49ee-b79b-26173ce0c8b5.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C724%2C805&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 13,
-                "sodium": 36,
-                "protein": 17,
-                "carb": 18,
-                "calories": 207
-            }
-        },
-        {
-            "name": "GARLIC TIKKA MASALA",
-            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
-            "price": "39,00 zł",
-            "desc": "na bazie lekko pikantnego gęstego sosu z posiekanym imbirowo-czosnkowym pomidorem cebulowym i orzechami nerkowca z Bawarchi szefa kuchni przygotowali własne przyprawy w typowym indyjskim stylu z wyborem warzywa sezonowe, paneer i kurczaka",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/2ce8e198-c705-4c35-b6b5-a4a055c85eab.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C623%2C688&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 19,
-                "sodium": 24,
-                "protein": 29,
-                "carb": 14,
-                "calories": 519
-            }
-        },
-        {
-            "name": "KASHMIRI TADKA",
-            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
-            "price": "39,00 zł",
-            "desc": "na bazie nasion kolendry nasiona kuminu liście kozieradki w aromatycznym gęstym sosie z czosnkiem imbirowym i cebulową papryką podawane w Kashmiri masala z warzywami, indyjskim serem Paneer, kurczakiem i jagnięciną",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/58ea58fc-2433-420e-ba73-76fb16ae1f89.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C855%2C740&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 14,
-                "sodium": 31,
-                "protein": 3,
-                "carb": 13,
-                "calories": 436
-            }
-        },
-        {
-            "name": "MANGO CURRY",
-            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
-            "price": "39,00 zł",
-            "desc": "MANGO CURRY Ser paneer lub kurczak lub jagnięcina lub krewetki marynowane przez noc w jogurcie, orzechach nerkowca i gotowane w indyjskim curry ze świeżym mango i aromatycznymi przyprawami. Przyozdobiony płatkami migdałów.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/b31633a9-e1bf-4dbb-9bcd-0bf136f77f12.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1170%2C839&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 21,
-                "sodium": 9,
-                "protein": 10,
-                "carb": 19,
-                "calories": 198
-            }
-        },
-        {
-            "name": "SPECIAL GINGER CURRY",
-            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
-            "price": "39,00 zł",
-            "desc": "Indyjski ser paneer lub soczysty kurczak lub jagnięcina lub krewetki gotowane w specjalnym wzmacniającym odpornośś sosie z imbiru, cebuli pomidorów i orzeszków nerkowca oraz indyjskich przypraw. (kurkuma, kmin, kolendra, mieszanka słodkich przypraw garam masala i kitchen king) curry udekorowane świeżym imbirem",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/40135/media_library/94b02a8f-4084-464f-a675-24eedae1d900.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1155%2C1257&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 19,
-                "sodium": 9,
-                "protein": 20,
-                "carb": 32,
-                "calories": 418
-            }
-        },
-        {
-            "name": "CHETTINAD",
-            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
-            "price": "39,00 zł",
-            "desc": "wyjątkowa mieszanka prażonych przypraw i mielonego świeżego pomidora, cebula kokos liście curry w pikantnym sosie serwują najbardziej aromatyczne południowo indyjskie styleunique blend of deep roasted spices and ground fresh tomato, onion coco nut curry leaves in spicy sauce serve south Indian most flavorful style.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/b19c98cf-de18-473a-a134-c343f69964ad.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C960%2C885&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 5,
-                "sodium": 31,
-                "protein": 24,
-                "carb": 18,
-                "calories": 238
-            }
-        },
-        {
-            "name": "TIKKA BUTTER MASALA",
-            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
-            "price": "37,00 zł",
-            "desc": "kawałki marynowanego pieczone kurczaka lub indyjskim serem paneer lub kawałki jagnięciny w sosie pomidorowym na bazie orzechów nerkowca lekko słodki smak z liśśmi kozieradki i indyjskimi przyprawami",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/10f2c8a1-db8e-46e3-80fa-74b3ab623489.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C992%2C559&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 19,
-                "sodium": 3,
-                "protein": 27,
-                "carb": 25,
-                "calories": 463
-            }
-        },
-        {
-            "name": "ACHARI MASALA",
-            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
-            "price": "39,00 zł",
-            "desc": "świeżo posiekany pomidor, cebula, imbir, czosnek, zielone chili, kolendra w mieszanym sosie z marynowanymi indyjskimi przyprawami z indyjska pikle Achar",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/1c659b40-e1bf-4d52-973b-b2bd05de5358.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 10,
-                "sodium": 37,
-                "protein": 25,
-                "carb": 30,
-                "calories": 539
-            }
-        },
-        {
-            "name": "ROYAL MASALA",
-            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
-            "price": "41,00 zł",
-            "desc": "warzywa sezonowe lub indyjskim serem paneer lub soczysty pieczony kurczak gotowany w klasycznym gęstym sosie indyjskim w sosie pomidorowo-cebulowym i orzechami nerkowca",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/3afa5422-a8a5-4927-a969-dc0f18b3be00.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1333&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 22,
-                "sodium": 10,
-                "protein": 5,
-                "carb": 11,
-                "calories": 544
-            }
-        },
-        {
-            "name": "SAMOSA Veg",
-            "category": "APPETIZERS",
-            "price": "17,00 zł",
-            "desc": "Klasyczne indyjskie pierożki nadziewane pikantnym farszem ziemniaczanym z groszkiem  oraz mieszanką aromatycznych przypraw 2szt.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/689aeeda-1ee3-4ce0-a923-edb8d94af6a6.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1125&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 16,
-                "sodium": 5,
-                "protein": 10,
-                "carb": 23,
-                "calories": 247
-            }
-        },
-        {
-            "name": "PAKORAS",
-            "category": "APPETIZERS",
-            "price": "19,00 zł",
-            "desc": "Krążki cebulowe lub mieszanka smażonych warzyw lub sera lub piersi z kurczaka lub krewetki obtoczone w łagodnej panierce z mąki z ciecierzycy.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/30f1e2ac-c79f-4f02-848b-1297921c1d6a.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 19,
-                "sodium": 22,
-                "protein": 9,
-                "carb": 32,
-                "calories": 305
-            }
-        },
-        {
-            "name": "CHICKEN LOLLIPOP",
-            "category": "APPETIZERS",
-            "price": "29,00 zł",
-            "desc": "Kurczak marynowany przez noc w paście czosnkowo-imbirowej, kaszmirskim czerwonym chilli, sosie sojowym, jajkach, soku z limonki, a następnie obtoczony w ostrym sosie czosnkowym, przyprawach i udekorowany dymką.Chicken marinated overnight in garlic-ginger paste, Kashmiri red chilly, soya sauce, eggs, lime juice and then tossed in hot garlic sauce, spices and garnished with spring onions.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/f156a825-8be3-48a2-9b1d-ae2d0fc2bf8e.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1125&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 19,
-                "sodium": 11,
-                "protein": 15,
-                "carb": 23,
-                "calories": 195
-            }
-        },
-        {
-            "name": "NOODLES (CHOW MEIN)",
-            "category": "APPETIZERS",
-            "price": "31,00 zł",
-            "desc": "Smażony makaron chow mien z mieszanką warzyw: kapustą, marchewką, kiełkami fasoli, papryką, sosem sojowym, sosem chilli i cebulką dymką.Stir-fried chow mien noodles with mix vegetables: cabbage, carrot, bean sprouts, bell pepper, soya sauce, chilly sauce and garnished with spring onions.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/a7f2cb5b-cb13-4fb5-8a8d-b4fe93095d84.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1334&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 7,
-                "sodium": 38,
-                "protein": 20,
-                "carb": 29,
-                "calories": 521
-            }
-        },
-        {
-            "name": "INDO CHILLY CHINESE",
-            "category": "APPETIZERS",
-            "price": "31,00 zł",
-            "desc": "Danie serwowane ze świeżymi sezonowymi warzywami gotowanymi w sosie sojowym z czosnkiem i chilli.With fresh seasonal vegetables cooked in garlic and chilly soya sauce.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/3794424f-f5ee-4646-b76e-4cb42d7a046c.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1334&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 0,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 3,
-                "sodium": 26,
-                "protein": 19,
-                "carb": 26,
-                "calories": 218
-            }
-        },
-        {
-            "name": "INDO CHINESE MANCHURIAN",
-            "category": "APPETIZERS",
-            "price": "31,00 zł",
-            "desc": "Warzywne pulpeciki lub kawałki soczystej piersi z kurczaka w sosie sojowym z chilli.Veg-balls or soft chicken cubes in chilly soya sauce.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/cfd5728a-e1d0-4a54-abc7-506cd34d6ca8.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1330&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 18,
-                "sodium": 27,
-                "protein": 27,
-                "carb": 23,
-                "calories": 476
-            }
-        },
-        {
-            "name": "TIKKAS",
-            "category": "TANDOORI APPETIZERS",
-            "price": "31,00 zł",
-            "desc": "Marynowanie przez noc z jogurtem w Tandoori Masala, orzechami nerkowca i grillowane w piecu tandoori. Podawane z sosem miętowym i sosem tamaryndowym.Overnight marination with yogurt in Tandoori Masala, cashew nuts and grilled in tandoori oven. Served with mint sauce and tamarind sauce.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/8a065a09-b1ad-4c54-8d6f-877b384dc5d7.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 5,
-                "sodium": 7,
-                "protein": 11,
-                "carb": 14,
-                "calories": 570
-            }
-        },
-        {
-            "name": "TANDOORI",
-            "category": "TANDOORI APPETIZERS",
-            "price": "31,00 zł",
-            "desc": "Marynowane w jogurcie oraz pikantnej mieszance przypraw masala. Pieczone w piecu Tandoor.Marinated with yogurt in ginger, garlic, kashmiri chilly, tandoori masala and grilled in tandoori oven. Served with mint sauce and tamarind sauce.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/71afad7a-f788-4718-9e08-449dfcca631f.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 18,
-                "sodium": 40,
-                "protein": 20,
-                "carb": 29,
-                "calories": 220
-            }
-        },
-        {
-            "name": "TANDOORI LAMB GULAFI",
-            "category": "TANDOORI APPETIZERS",
-            "price": "37,00 zł",
-            "desc": "Roladki z mielonej jagnięciny marynowanej przez całą noc w orientalnych przyprawach, jogurcie, paście imbirowo czosnkowej z chilli, cytryną i liśśmi kolendry.  Minced lamb meat marinated overnight in oriental masala spices with yogurt, ginger-garlic paste, cumin seeds, bell peppers, lemon and garnished with coriander leaves.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/da8ac3e6-24b6-4de0-ab55-d7ee8dc5b48d.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 18,
-                "sodium": 8,
-                "protein": 29,
-                "carb": 24,
-                "calories": 270
-            }
-        },
-        {
-            "name": "SPECIAL TANDOORI NON-VEG PLATTER",
-            "category": "TANDOORI APPETIZERS",
-            "price": "81,00 zł",
-            "desc": "Zestaw przekąsek mięsnych z grilla: Kurczak Tikka (3 szt.), Udka Kurczaka (2 szt.), Kurczak z pieca Tikka (3 szt.), łosoś Tikka (3 szt.), Krewetki z pieca (3 szt.).Set of Grilled Meat Snacks: Chicken Tikka (3pcs.), Chicken legs (2pcs.), Garlic Chicken Tikka (3pcs.), Salmon Fish Tikka (3pcs), Tandoori Prawns (3pcs.).",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/f3898f2c-c144-4be1-9e00-4d0c05c3d890.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C960%2C665&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 9,
-                "sodium": 19,
-                "protein": 10,
-                "carb": 23,
-                "calories": 507
-            }
-        },
-        {
-            "name": "PANEER TIKKA PAPADI",
-            "category": "TANDOORI APPETIZERS",
-            "price": "33,00 zł",
-            "desc": "Kawałki sera paneer w marynacie z papryki, cebuli, pomidorów z orzechami nerkowca, szafranem i kardamonem nadziane kruszonym indyjskim chipsem z mąki z soczewicy",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/386920dc-d02b-45e2-91cb-bf3a0ff72c0e.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 21,
-                "sodium": 21,
-                "protein": 14,
-                "carb": 34,
-                "calories": 368
-            }
-        },
-        {
-            "name": "DAL TADKA",
-            "category": "DANIA GłóWNE",
-            "price": "25,00 zł",
-            "desc": "żółta soczewica gotowana z kminkiem, czosnkiem, imbirem i cebula.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/a1f3a1c7-1666-4d1d-b7fe-ff889e36262e.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 11,
-                "sodium": 21,
-                "protein": 10,
-                "carb": 34,
-                "calories": 382
-            }
-        },
-        {
-            "name": "DAL MAKHANI",
-            "category": "DANIA GłóWNE",
-            "price": "27,00 zł",
-            "desc": "Czarna soczewica w tradycyjnym pomidorowo-śmietanowym sosie",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/3798910b-318e-49cb-a5f9-773c2faa80f5.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1279&w=1920",
             "allergens": {
                 "lactose": 0,
                 "gluten": 0,
@@ -624,293 +82,21 @@
             },
             "nutrition": {
                 "fat": 12,
-                "sodium": 27,
-                "protein": 4,
-                "carb": 34,
-                "calories": 387
-            }
-        },
-        {
-            "name": "CHANA MASALA",
-            "category": "DANIA GłóWNE",
-            "price": "27,00 zł",
-            "desc": "Gotowana cieciorka w sosie z cebuli i świeżych pomidorów.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/cf34eb3b-53c7-43a8-bc40-c4a1d7437761.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 0,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 7,
-                "sodium": 33,
-                "protein": 14,
-                "carb": 11,
-                "calories": 450
-            }
-        },
-        {
-            "name": "BUTTER CURRY",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "Soczyste piersi z kurczaka lub jagnięciny lub ser paneer w kremowym sosie pomidorowym na bazie orzechów nerkowca.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/1d3c3a16-bb4d-465f-9bcb-2205697bf708.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 0,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 16,
-                "sodium": 20,
-                "protein": 20,
-                "carb": 26,
-                "calories": 420
-            }
-        },
-        {
-            "name": "PALAK",
-            "category": "DANIA GłóWNE",
-            "price": "31,00 zł",
-            "desc": "Kawałki sera paneer lub soczystego kurczaka lub jagnięciny lub krewetki w sosie szpinakowym.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/7cae09b6-b9e1-44f9-9bdd-e4d2070e110f.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C875%2C845&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 10,
-                "sodium": 3,
-                "protein": 4,
-                "carb": 33,
-                "calories": 513
-            }
-        },
-        {
-            "name": "TIKKA MASALA",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "Kawałki sera paneer lub grillowanej piersi z kurczaka, gotowane w wytrawnym sosie pomidorowym z dodatkiem cebuli i orzechów nerkowca",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/9268a67b-1672-4603-8ac8-011d88b12fce.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1000%2C1000&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 7,
-                "sodium": 18,
-                "protein": 29,
-                "carb": 34,
-                "calories": 520
-            }
-        },
-        {
-            "name": "JALFREZI",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "Ostro-kwaśny sos curry z dużymi kawałkami warzyw",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/683998ed-d850-4cf8-bab9-e5b7642b9a35.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 10,
-                "sodium": 24,
-                "protein": 20,
-                "carb": 30,
-                "calories": 217
-            }
-        },
-        {
-            "name": "KORMA",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "Warzywa lub kawałki piersi kurczaka lub kawałki jagnięciny lub krewetki w kremowym sosie z suszonymi owocami i orzechami nerkowca",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/07812238-6ce2-4170-8282-6f974c6b3de8.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 23,
-                "sodium": 29,
-                "protein": 25,
-                "carb": 13,
-                "calories": 474
-            }
-        },
-        {
-            "name": "MADRAS",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "Aromatyczne bardzo ostre curry ze świeżo blendowanymi przyprawami",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/7dfdf6ca-f1c1-45e0-a232-fe73f1b573c6.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 16,
-                "sodium": 17,
-                "protein": 14,
-                "carb": 21,
-                "calories": 376
-            }
-        },
-        {
-            "name": "ROGAN JOSH",
-            "category": "DANIA GłóWNE",
-            "price": "35,00 zł",
-            "desc": "Pierś z kurczaka lub mięciutka jagnięcina w klasycznym sosie z Kashmiru",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/1b36f92b-fc2a-4ebf-835f-42505e03d93b.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1333&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 0,
-                "mushrooms": 1,
-                "nuts": 0,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 7,
-                "sodium": 31,
-                "protein": 9,
-                "carb": 12,
-                "calories": 337
-            }
-        },
-        {
-            "name": "KADAI",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "Kawałki indyjskiego sera lub kurczaka lub jagnięciny lub krewetki gotowane z cebulą, papryką w wytrawnym sosie pomidorowym z ziołami",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/df0f96f6-b287-4ec8-aa9c-374d293c134c.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C727%2C653&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 8,
-                "sodium": 33,
-                "protein": 21,
-                "carb": 19,
-                "calories": 215
-            }
-        },
-        {
-            "name": "METHI",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "łagodny, kremowy sos na bazie orzechów nerkowca z kozieradką.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/40135/media_library/3061e217-96e2-4d6a-b268-32842d2ccff0.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1711%2C1181&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 22,
-                "sodium": 24,
-                "protein": 5,
-                "carb": 28,
-                "calories": 193
-            }
-        },
-        {
-            "name": "LABABDAR",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "Indyjski ser paneer lub soczysty pieczony kurczak i gotowe gotowane kawałki jagnięciny w łagodnym kremowym sosie z orzechów nerkowca z kardamonem, kokosem i mieszanką indyjskich przypraw.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/91469810-cc10-4111-8ab6-0e34a61e7db5.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 0,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 8,
-                "sodium": 30,
-                "protein": 21,
-                "carb": 29,
-                "calories": 255
-            }
-        },
-        {
-            "name": "iNDYJSKIE CURRY",
-            "category": "DANIA GłóWNE",
-            "price": "29,00 zł",
-            "desc": "Tradycyjne indyjskie curry z Mieszane warzywa lub indyjskie ser Paneer lub kurczak lub jagnięcina lub Krewetkami duszona w sosie na bazie cebuli, pomidorów i orzechów nerkowca, aromatyzowana imbirem, czosnkiem, kolendrą i różnymi przyprawami, często z kurkumą, kminkiem, kolendrą, cynamonem, kardamonem i Garam Masala Vegetables or Paneer or chicken or lamb and Prawns stewed in an onion,tomato and cashew nuts based sauce, flavored with ginger, garlic, coriander and a variety of spices often including turmeric, cumin, coriander, cinnamon, cardamom and Garam Masala",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/34518a20-569b-4d94-9685-48af3624b8c6.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 25,
-                "sodium": 7,
+                "sodium": 11,
                 "protein": 23,
-                "carb": 20,
-                "calories": 313
+                "carb": 32,
+                "calories": 414
             }
         },
         {
-            "name": "Balti",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "Gęsty sos na bazie cebuli, pomidorów, nasion gorczycy oraz chili. Główny składnik do wyboru.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/46d5b3d6-6d3b-403e-97f4-d5c04a62caef.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1200%2C674&w=1920",
+            "id": 5,
+            "name": "Piątek Lunch",
+            "category": "LUNCH",
+            "price": "29,00 zł",
+            "desc": "CHICKEN MASALA NEPAL Tradycyjne nepalskie curry z mieszanka przypraw masala.i RAJMA:gotowana z cebulą, pomidorami kolendrowymi i specjalną mieszanką przyprawlubPALAK PANEER:Ser indyjski w aromatycznym sosie szpinakowym.iRAJMA: gotowana z cebulą, pomidorami kolendrowymi i specjalną mieszanką przyprawlubLAMB MASALA NEPAL.Jagnięcina w tradycyjny wytrawny sos na bazie nepalskich przypraw z orzeszkami nerkowca I  RAJMA: gotowana z cebulą, pomidorami kolendrowymi i specjalną mieszanką przypraw.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/87b923fc-5bc9-48dd-bb90-9814a193e0db.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1200%2C960&w=1920",
             "allergens": {
                 "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 18,
-                "sodium": 32,
-                "protein": 8,
-                "carb": 14,
-                "calories": 320
-            }
-        },
-        {
-            "name": "Gulmi",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "Kawałki smażonego sera Paneer lub kurczaka z warzywami (brokuły, pieczarki, papryka, cebula) w pomidorowo-czosnkowym sosie. Pieces of fried Paneer cheese or chicken with vegetables (broccoli, mushrooms, peppers, onions) in tomato-garlic sauce",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/2f0b6e27-5793-4740-afa8-e6f204949007.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
-            "allergens": {
-                "lactose": 1,
                 "gluten": 0,
                 "mushrooms": 1,
                 "nuts": 1,
@@ -918,39 +104,19 @@
             },
             "nutrition": {
                 "fat": 24,
-                "sodium": 34,
-                "protein": 21,
-                "carb": 33,
-                "calories": 514
+                "sodium": 5,
+                "protein": 26,
+                "carb": 22,
+                "calories": 315
             }
         },
         {
-            "name": "Kali Mirchi",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "indyjskim serem paneer lub pierś z kurczaka w sosie orzechowym indyjskim z posiekaną cebulą sok z cytryny i czarny pieprz Indian Cheese Paneer or chicken breast in a cashew nut sauce with chopped onion lemon juice and black pepper",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/53f7a3b9-44ef-4cec-9552-e9c184d44fb3.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 0,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 4,
-                "sodium": 17,
-                "protein": 4,
-                "carb": 11,
-                "calories": 442
-            }
-        },
-        {
-            "name": "Khurchan",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "Do wyboru ser indyjski Paneer lub kurczak w wytrawnym sosie pomidorowym z cebulą, papryką oraz anyżem. Choose from Paneer Indian cheese or chicken in a dry tomato sauce with onions, peppers and Green sounf",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/4499947a-e637-49ff-8195-4632abf9eebc.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
+            "id": 6,
+            "name": "TAKA TAK",
+            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
+            "price": "43,00 zł",
+            "desc": "PANEER Kawałki smażonego i mielonego sera paneer z pomidorami cebulą i papryką w sekretnym sosie szefaCHICKEN LAMB KREWETKIPieczony soczysty kurczak sekretny przepis z milonej jagnięcina,pomidorami,cebulą oraz papryką",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/6b8dde24-5320-442d-9022-115e15300071.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C943%2C943&w=1920",
             "allergens": {
                 "lactose": 1,
                 "gluten": 0,
@@ -959,40 +125,856 @@
                 "soya": 1
             },
             "nutrition": {
-                "fat": 8,
-                "sodium": 29,
-                "protein": 9,
-                "carb": 12,
-                "calories": 579
+                "fat": 23,
+                "sodium": 18,
+                "protein": 16,
+                "carb": 18,
+                "calories": 530
             }
         },
         {
-            "name": "Masala Nepal",
-            "category": "DANIA GłóWNE",
-            "price": "33,00 zł",
-            "desc": "Tradycyjny nepalski aromat gęsty sos na bazie nepalskich przypraw z orzechami nerkowca. Podawane z gotowanym jajkiem. Traditional Nepalese aroma thick sauce based on Nepalese spices with cashew nuts. Served with boiled egg",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/a667876c-244a-4efb-8323-c7846c94eda2.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
+            "id": 7,
+            "name": "BHUNA LAMB MASALEDAAR",
+            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
+            "price": "53,00 zł",
+            "desc": "Gotowana jagnięcina w mielonej jagnięcinie w indyjskim sosie aromatycznym z posiekaną cebulą pomidorowym zielonym chili i świeżą kolendrą",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/55c6eda3-7bc1-40fb-83e5-e4efe04425f5.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C960%2C909&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 11,
+                "sodium": 20,
+                "protein": 18,
+                "carb": 34,
+                "calories": 270
+            }
+        },
+        {
+            "id": 8,
+            "name": "PANEER MATAR  MUSHROOM",
+            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
+            "price": "39,00 zł",
+            "desc": "Indyjski ser paneer z zielonym groszkiem i pieczarkami w wytrawnym sosie pomidorowo cebulowym",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/a3f28b2e-1e8f-479d-9224-e555fc88a321.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 0,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 18,
+                "sodium": 37,
+                "protein": 14,
+                "carb": 26,
+                "calories": 201
+            }
+        },
+        {
+            "id": 9,
+            "name": "OKRA BHINDI MASALA",
+            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
+            "price": "41,00 zł",
+            "desc": "Świeża soczysta okra gotowana w paście czosnkowej z kminem, cebulą,pomidorami oraz bogatą kompozycją indyjskich aromatycznych przypraw",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/f532d96f-bb02-49ee-b79b-26173ce0c8b5.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C724%2C805&w=1920",
             "allergens": {
                 "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 0,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 18,
+                "sodium": 15,
+                "protein": 10,
+                "carb": 33,
+                "calories": 500
+            }
+        },
+        {
+            "id": 10,
+            "name": "GARLIC TIKKA MASALA",
+            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
+            "price": "39,00 zł",
+            "desc": "na bazie lekko pikantnego gęstego sosu z posiekanym imbirowo-czosnkowym pomidorem cebulowym i orzechami nerkowca z Bawarchi szefa kuchni przygotowali własne przyprawy w typowym indyjskim stylu z wyborem warzywa sezonowe, paneer i kurczaka",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/2ce8e198-c705-4c35-b6b5-a4a055c85eab.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C623%2C688&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 0,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 17,
+                "sodium": 13,
+                "protein": 13,
+                "carb": 21,
+                "calories": 215
+            }
+        },
+        {
+            "id": 11,
+            "name": "KASHMIRI TADKA",
+            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
+            "price": "39,00 zł",
+            "desc": "na bazie nasion kolendry nasiona kuminu liście kozieradki w aromatycznym gęstym sosie z czosnkiem imbirowym i cebulową papryką podawane w Kashmiri masala z warzywami, indyjskim serem Paneer, kurczakiem i jagnięciną",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/58ea58fc-2433-420e-ba73-76fb16ae1f89.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C855%2C740&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 6,
+                "sodium": 23,
+                "protein": 28,
+                "carb": 14,
+                "calories": 378
+            }
+        },
+        {
+            "id": 12,
+            "name": "MANGO CURRY",
+            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
+            "price": "39,00 zł",
+            "desc": "MANGO CURRY Ser paneer lub kurczak lub jagnięcina lub krewetki marynowane przez noc w jogurcie, orzechach nerkowca i gotowane w indyjskim curry ze świeżym mango i aromatycznymi przyprawami. Przyozdobiony płatkami migdałów.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/b31633a9-e1bf-4dbb-9bcd-0bf136f77f12.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1170%2C839&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 0,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 13,
+                "sodium": 10,
+                "protein": 10,
+                "carb": 21,
+                "calories": 515
+            }
+        },
+        {
+            "id": 13,
+            "name": "SPECIAL GINGER CURRY",
+            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
+            "price": "39,00 zł",
+            "desc": "Indyjski ser paneer lub soczysty kurczak lub jagnięcina lub krewetki gotowane w specjalnym wzmacniającym odporność sosie z imbiru, cebuli pomidorów i orzeszków nerkowca oraz indyjskich przypraw. (kurkuma, kmin, kolendra, mieszanka słodkich przypraw garam masala i kitchen king) curry udekorowane świeżym imbirem",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/40135/media_library/94b02a8f-4084-464f-a675-24eedae1d900.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1155%2C1257&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 5,
+                "sodium": 35,
+                "protein": 15,
+                "carb": 10,
+                "calories": 446
+            }
+        },
+        {
+            "id": 14,
+            "name": "CHETTINAD",
+            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
+            "price": "39,00 zł",
+            "desc": "wyjątkowa mieszanka prażonych przypraw i mielonego świeżego pomidora, cebula kokos liście curry w pikantnym sosie serwują najbardziej aromatyczne południowo indyjskie styleunique blend of deep roasted spices and ground fresh tomato, onion coco nut curry leaves in spicy sauce serve south Indian most flavorful style.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/b19c98cf-de18-473a-a134-c343f69964ad.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C960%2C885&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 0,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 10,
+                "sodium": 36,
+                "protein": 26,
+                "carb": 29,
+                "calories": 200
+            }
+        },
+        {
+            "id": 15,
+            "name": "TIKKA BUTTER MASALA",
+            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
+            "price": "37,00 zł",
+            "desc": "kawałki marynowanego pieczone kurczaka lub indyjskim serem paneer lub kawałki jagnięciny w sosie pomidorowym na bazie orzechów nerkowca lekko słodki smak z liśćmi kozieradki i indyjskimi przyprawami",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/10f2c8a1-db8e-46e3-80fa-74b3ab623489.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C992%2C559&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 16,
+                "sodium": 37,
+                "protein": 27,
+                "carb": 31,
+                "calories": 255
+            }
+        },
+        {
+            "id": 16,
+            "name": "ACHARI MASALA",
+            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
+            "price": "39,00 zł",
+            "desc": "świeżo posiekany pomidor, cebula, imbir, czosnek, zielone chili, kolendra w mieszanym sosie z marynowanymi indyjskimi przyprawami z indyjska pikle Achar",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/1c659b40-e1bf-4d52-973b-b2bd05de5358.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 0,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 14,
+                "sodium": 35,
+                "protein": 14,
+                "carb": 21,
+                "calories": 347
+            }
+        },
+        {
+            "id": 17,
+            "name": "ROYAL MASALA",
+            "category": "SZEF KUCHNI POLECA (15% zniżki na każde danie)",
+            "price": "41,00 zł",
+            "desc": "warzywa sezonowe lub indyjskim serem paneer lub soczysty pieczony kurczak gotowany w klasycznym gęstym sosie indyjskim w sosie pomidorowo-cebulowym i orzechami nerkowca",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/3afa5422-a8a5-4927-a969-dc0f18b3be00.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1333&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 0,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 17,
+                "sodium": 40,
+                "protein": 27,
+                "carb": 10,
+                "calories": 276
+            }
+        },
+        {
+            "id": 18,
+            "name": "SAMOSA Veg",
+            "category": "APPETIZERS",
+            "price": "17,00 zł",
+            "desc": "Klasyczne indyjskie pierożki nadziewane pikantnym farszem ziemniaczanym z groszkiem  oraz mieszanką aromatycznych przypraw 2szt.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/689aeeda-1ee3-4ce0-a923-edb8d94af6a6.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1125&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 0,
+                "mushrooms": 1,
+                "nuts": 0,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 9,
+                "sodium": 20,
+                "protein": 27,
+                "carb": 34,
+                "calories": 520
+            }
+        },
+        {
+            "id": 19,
+            "name": "PAKORAS",
+            "category": "APPETIZERS",
+            "price": "19,00 zł",
+            "desc": "Krążki cebulowe lub mieszanka smażonych warzyw lub sera lub piersi z kurczaka lub krewetki obtoczone w łagodnej panierce z mąki z ciecierzycy.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/30f1e2ac-c79f-4f02-848b-1297921c1d6a.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 22,
+                "sodium": 17,
+                "protein": 8,
+                "carb": 29,
+                "calories": 346
+            }
+        },
+        {
+            "id": 20,
+            "name": "CHICKEN LOLLIPOP",
+            "category": "APPETIZERS",
+            "price": "29,00 zł",
+            "desc": "Kurczak marynowany przez noc w paście czosnkowo-imbirowej, kaszmirskim czerwonym chilli, sosie sojowym, jajkach, soku z limonki, a następnie obtoczony w ostrym sosie czosnkowym, przyprawach i udekorowany dymką.Chicken marinated overnight in garlic-ginger paste, Kashmiri red chilly, soya sauce, eggs, lime juice and then tossed in hot garlic sauce, spices and garnished with spring onions.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/f156a825-8be3-48a2-9b1d-ae2d0fc2bf8e.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1125&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 0,
+                "mushrooms": 1,
+                "nuts": 0,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 14,
+                "sodium": 12,
+                "protein": 5,
+                "carb": 15,
+                "calories": 216
+            }
+        },
+        {
+            "id": 21,
+            "name": "NOODLES (CHOW MEIN)",
+            "category": "APPETIZERS",
+            "price": "31,00 zł",
+            "desc": "Smażony makaron chow mien z mieszanką warzyw: kapustą, marchewką, kiełkami fasoli, papryką, sosem sojowym, sosem chilli i cebulką dymką.Stir-fried chow mien noodles with mix vegetables: cabbage, carrot, bean sprouts, bell pepper, soya sauce, chilly sauce and garnished with spring onions.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/a7f2cb5b-cb13-4fb5-8a8d-b4fe93095d84.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1334&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 0,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 18,
+                "sodium": 40,
+                "protein": 16,
+                "carb": 21,
+                "calories": 285
+            }
+        },
+        {
+            "id": 22,
+            "name": "INDO CHILLY CHINESE",
+            "category": "APPETIZERS",
+            "price": "31,00 zł",
+            "desc": "Danie serwowane ze świeżymi sezonowymi warzywami gotowanymi w sosie sojowym z czosnkiem i chilli.With fresh seasonal vegetables cooked in garlic and chilly soya sauce.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/3794424f-f5ee-4646-b76e-4cb42d7a046c.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1334&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 0,
+                "mushrooms": 0,
+                "nuts": 0,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 3,
+                "sodium": 19,
+                "protein": 19,
+                "carb": 14,
+                "calories": 501
+            }
+        },
+        {
+            "id": 23,
+            "name": "INDO CHINESE MANCHURIAN",
+            "category": "APPETIZERS",
+            "price": "31,00 zł",
+            "desc": "Warzywne pulpeciki lub kawałki soczystej piersi z kurczaka w sosie sojowym z chilli.Veg-balls or soft chicken cubes in chilly soya sauce.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/cfd5728a-e1d0-4a54-abc7-506cd34d6ca8.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1330&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 20,
+                "sodium": 21,
+                "protein": 24,
+                "carb": 12,
+                "calories": 439
+            }
+        },
+        {
+            "id": 24,
+            "name": "TIKKAS",
+            "category": "TANDOORI APPETIZERS",
+            "price": "31,00 zł",
+            "desc": "Marynowanie przez noc z jogurtem w Tandoori Masala, orzechami nerkowca i grillowane w piecu tandoori. Podawane z sosem miętowym i sosem tamaryndowym.Overnight marination with yogurt in Tandoori Masala, cashew nuts and grilled in tandoori oven. Served with mint sauce and tamarind sauce.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/8a065a09-b1ad-4c54-8d6f-877b384dc5d7.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 21,
+                "sodium": 6,
+                "protein": 27,
+                "carb": 28,
+                "calories": 195
+            }
+        },
+        {
+            "id": 25,
+            "name": "TANDOORI",
+            "category": "TANDOORI APPETIZERS",
+            "price": "31,00 zł",
+            "desc": "Marynowane w jogurcie oraz pikantnej mieszance przypraw masala. Pieczone w piecu Tandoor.Marinated with yogurt in ginger, garlic, kashmiri chilly, tandoori masala and grilled in tandoori oven. Served with mint sauce and tamarind sauce.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/71afad7a-f788-4718-9e08-449dfcca631f.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 0,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 6,
+                "sodium": 37,
+                "protein": 15,
+                "carb": 20,
+                "calories": 228
+            }
+        },
+        {
+            "id": 26,
+            "name": "TANDOORI LAMB GULAFI",
+            "category": "TANDOORI APPETIZERS",
+            "price": "37,00 zł",
+            "desc": "Roladki z mielonej jagnięciny marynowanej przez całą noc w orientalnych przyprawach, jogurcie, paście imbirowo czosnkowej z chilli, cytryną i liśćmi kolendry.  Minced lamb meat marinated overnight in oriental masala spices with yogurt, ginger-garlic paste, cumin seeds, bell peppers, lemon and garnished with coriander leaves.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/da8ac3e6-24b6-4de0-ab55-d7ee8dc5b48d.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
+            "allergens": {
+                "lactose": 1,
                 "gluten": 0,
                 "mushrooms": 1,
                 "nuts": 0,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 16,
-                "sodium": 33,
-                "protein": 4,
-                "carb": 10,
-                "calories": 336
+                "fat": 20,
+                "sodium": 4,
+                "protein": 3,
+                "carb": 16,
+                "calories": 499
             }
         },
         {
-            "name": "INDIAN SOUP",
-            "category": "ZUPY",
-            "price": "17,00 zł",
-            "desc": "Klasyczna indyjska zupa z kurczakiem orz warzywami orz Krewetki",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/fb511417-898b-40dc-a61b-05873fba9354.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
+            "id": 27,
+            "name": "SPECIAL TANDOORI NON-VEG PLATTER",
+            "category": "TANDOORI APPETIZERS",
+            "price": "81,00 zł",
+            "desc": "Zestaw przekąsek mięsnych z grilla: Kurczak Tikka (3 szt.), Udka Kurczaka (2 szt.), Kurczak z pieca Tikka (3 szt.), Łosoś Tikka (3 szt.), Krewetki z pieca (3 szt.).Set of Grilled Meat Snacks: Chicken Tikka (3pcs.), Chicken legs (2pcs.), Garlic Chicken Tikka (3pcs.), Salmon Fish Tikka (3pcs), Tandoori Prawns (3pcs.).",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/f3898f2c-c144-4be1-9e00-4d0c05c3d890.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C960%2C665&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 10,
+                "sodium": 29,
+                "protein": 29,
+                "carb": 14,
+                "calories": 207
+            }
+        },
+        {
+            "id": 28,
+            "name": "PANEER TIKKA PAPADI",
+            "category": "TANDOORI APPETIZERS",
+            "price": "33,00 zł",
+            "desc": "Kawałki sera paneer w marynacie z papryki, cebuli, pomidorów z orzechami nerkowca, szafranem i kardamonem nadziane kruszonym indyjskim chipsem z mąki z soczewicy",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/386920dc-d02b-45e2-91cb-bf3a0ff72c0e.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 0,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 15,
+                "sodium": 26,
+                "protein": 26,
+                "carb": 28,
+                "calories": 260
+            }
+        },
+        {
+            "id": 29,
+            "name": "DAL TADKA",
+            "category": "DANIA GŁÓWNE",
+            "price": "25,00 zł",
+            "desc": "Żółta soczewica gotowana z kminkiem, czosnkiem, imbirem i cebula.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/a1f3a1c7-1666-4d1d-b7fe-ff889e36262e.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 13,
+                "sodium": 25,
+                "protein": 23,
+                "carb": 11,
+                "calories": 346
+            }
+        },
+        {
+            "id": 30,
+            "name": "DAL MAKHANI",
+            "category": "DANIA GŁÓWNE",
+            "price": "27,00 zł",
+            "desc": "Czarna soczewica w tradycyjnym pomidorowo-śmietanowym sosie",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/3798910b-318e-49cb-a5f9-773c2faa80f5.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1279&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 6,
+                "sodium": 10,
+                "protein": 16,
+                "carb": 11,
+                "calories": 518
+            }
+        },
+        {
+            "id": 31,
+            "name": "CHANA MASALA",
+            "category": "DANIA GŁÓWNE",
+            "price": "27,00 zł",
+            "desc": "Gotowana cieciorka w sosie z cebuli i świeżych pomidorów.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/cf34eb3b-53c7-43a8-bc40-c4a1d7437761.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 0,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 17,
+                "sodium": 15,
+                "protein": 7,
+                "carb": 24,
+                "calories": 521
+            }
+        },
+        {
+            "id": 32,
+            "name": "BUTTER CURRY",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "Soczyste piersi z kurczaka lub jagnięciny lub ser paneer w kremowym sosie pomidorowym na bazie orzechów nerkowca.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/1d3c3a16-bb4d-465f-9bcb-2205697bf708.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 23,
+                "sodium": 36,
+                "protein": 6,
+                "carb": 11,
+                "calories": 500
+            }
+        },
+        {
+            "id": 33,
+            "name": "PALAK",
+            "category": "DANIA GŁÓWNE",
+            "price": "31,00 zł",
+            "desc": "Kawałki sera paneer lub soczystego kurczaka lub jagnięciny lub krewetki w sosie szpinakowym.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/7cae09b6-b9e1-44f9-9bdd-e4d2070e110f.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C875%2C845&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 9,
+                "sodium": 5,
+                "protein": 10,
+                "carb": 13,
+                "calories": 497
+            }
+        },
+        {
+            "id": 34,
+            "name": "TIKKA MASALA",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "Kawałki sera paneer lub grillowanej piersi z kurczaka, gotowane w wytrawnym sosie pomidorowym z dodatkiem cebuli i orzechów nerkowca",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/9268a67b-1672-4603-8ac8-011d88b12fce.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1000%2C1000&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 0,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 10,
+                "sodium": 35,
+                "protein": 21,
+                "carb": 15,
+                "calories": 405
+            }
+        },
+        {
+            "id": 35,
+            "name": "JALFREZI",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "Ostro-kwaśny sos curry z dużymi kawałkami warzyw",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/683998ed-d850-4cf8-bab9-e5b7642b9a35.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 17,
+                "sodium": 24,
+                "protein": 11,
+                "carb": 32,
+                "calories": 223
+            }
+        },
+        {
+            "id": 36,
+            "name": "KORMA",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "Warzywa lub kawałki piersi kurczaka lub kawałki jagnięciny lub krewetki w kremowym sosie z suszonymi owocami i orzechami nerkowca",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/07812238-6ce2-4170-8282-6f974c6b3de8.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 0,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 25,
+                "sodium": 30,
+                "protein": 6,
+                "carb": 17,
+                "calories": 416
+            }
+        },
+        {
+            "id": 37,
+            "name": "MADRAS",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "Aromatyczne bardzo ostre curry ze świeżo blendowanymi przyprawami",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/7dfdf6ca-f1c1-45e0-a232-fe73f1b573c6.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 0,
+                "mushrooms": 0,
+                "nuts": 0,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 24,
+                "sodium": 10,
+                "protein": 11,
+                "carb": 14,
+                "calories": 223
+            }
+        },
+        {
+            "id": 38,
+            "name": "ROGAN JOSH",
+            "category": "DANIA GŁÓWNE",
+            "price": "35,00 zł",
+            "desc": "Pierś z kurczaka lub mięciutka jagnięcina w klasycznym sosie z Kashmiru",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/1b36f92b-fc2a-4ebf-835f-42505e03d93b.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1333&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 0,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 4,
+                "sodium": 27,
+                "protein": 29,
+                "carb": 31,
+                "calories": 196
+            }
+        },
+        {
+            "id": 39,
+            "name": "KADAI",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "Kawałki indyjskiego sera lub kurczaka lub jagnięciny lub krewetki gotowane z cebulą, papryką w wytrawnym sosie pomidorowym z ziołami",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/df0f96f6-b287-4ec8-aa9c-374d293c134c.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C727%2C653&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 0,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 24,
+                "sodium": 33,
+                "protein": 26,
+                "carb": 23,
+                "calories": 420
+            }
+        },
+        {
+            "id": 40,
+            "name": "METHI",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "Łagodny, kremowy sos na bazie orzechów nerkowca z kozieradką.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/40135/media_library/3061e217-96e2-4d6a-b268-32842d2ccff0.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1711%2C1181&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 20,
+                "sodium": 10,
+                "protein": 23,
+                "carb": 29,
+                "calories": 511
+            }
+        },
+        {
+            "id": 41,
+            "name": "LABABDAR",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "Indyjski ser paneer lub soczysty pieczony kurczak i gotowe gotowane kawałki jagnięciny w łagodnym kremowym sosie z orzechów nerkowca z kardamonem, kokosem i mieszanką indyjskich przypraw.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/91469810-cc10-4111-8ab6-0e34a61e7db5.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 20,
+                "sodium": 6,
+                "protein": 4,
+                "carb": 13,
+                "calories": 406
+            }
+        },
+        {
+            "id": 42,
+            "name": "iNDYJSKIE CURRY",
+            "category": "DANIA GŁÓWNE",
+            "price": "29,00 zł",
+            "desc": "Tradycyjne indyjskie curry z Mieszane warzywa lub indyjskie ser Paneer lub kurczak lub jagnięcina lub Krewetkami duszona w sosie na bazie cebuli, pomidorów i orzechów nerkowca, aromatyzowana imbirem, czosnkiem, kolendrą i różnymi przyprawami, często z kurkumą, kminkiem, kolendrą, cynamonem, kardamonem i Garam Masala Vegetables or Paneer or chicken or lamb and Prawns stewed in an onion,tomato and cashew nuts based sauce, flavored with ginger, garlic, coriander and a variety of spices often including turmeric, cumin, coriander, cinnamon, cardamom and Garam Masala",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/34518a20-569b-4d94-9685-48af3624b8c6.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 4,
+                "sodium": 15,
+                "protein": 25,
+                "carb": 29,
+                "calories": 508
+            }
+        },
+        {
+            "id": 43,
+            "name": "Balti",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "Gęsty sos na bazie cebuli, pomidorów, nasion gorczycy oraz chili. Główny składnik do wyboru.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/46d5b3d6-6d3b-403e-97f4-d5c04a62caef.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1200%2C674&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 17,
+                "sodium": 37,
+                "protein": 22,
+                "carb": 24,
+                "calories": 443
+            }
+        },
+        {
+            "id": 44,
+            "name": "Gulmi",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "Kawałki smażonego sera Paneer lub kurczaka z warzywami (brokuły, pieczarki, papryka, cebula) w pomidorowo-czosnkowym sosie. Pieces of fried Paneer cheese or chicken with vegetables (broccoli, mushrooms, peppers, onions) in tomato-garlic sauce",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/2f0b6e27-5793-4740-afa8-e6f204949007.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 7,
+                "sodium": 10,
+                "protein": 18,
+                "carb": 32,
+                "calories": 319
+            }
+        },
+        {
+            "id": 45,
+            "name": "Kali Mirchi",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "indyjskim serem paneer lub pierś z kurczaka w sosie orzechowym indyjskim z posiekaną cebulą sok z cytryny i czarny pieprz Indian Cheese Paneer or chicken breast in a cashew nut sauce with chopped onion lemon juice and black pepper",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/53f7a3b9-44ef-4cec-9552-e9c184d44fb3.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
             "allergens": {
                 "lactose": 0,
                 "gluten": 0,
@@ -1001,35 +983,103 @@
                 "soya": 0
             },
             "nutrition": {
-                "fat": 6,
-                "sodium": 20,
-                "protein": 24,
-                "carb": 28,
-                "calories": 194
+                "fat": 22,
+                "sodium": 15,
+                "protein": 27,
+                "carb": 34,
+                "calories": 458
             }
         },
         {
+            "id": 46,
+            "name": "Khurchan",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "Do wyboru ser indyjski Paneer lub kurczak w wytrawnym sosie pomidorowym z cebulą, papryką oraz anyżem. Choose from Paneer Indian cheese or chicken in a dry tomato sauce with onions, peppers and Green sounf",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/4499947a-e637-49ff-8195-4632abf9eebc.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 0,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 14,
+                "sodium": 34,
+                "protein": 3,
+                "carb": 28,
+                "calories": 365
+            }
+        },
+        {
+            "id": 47,
+            "name": "Masala Nepal",
+            "category": "DANIA GŁÓWNE",
+            "price": "33,00 zł",
+            "desc": "Tradycyjny nepalski aromat gęsty sos na bazie nepalskich przypraw z orzechami nerkowca. Podawane z gotowanym jajkiem. Traditional Nepalese aroma thick sauce based on Nepalese spices with cashew nuts. Served with boiled egg",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/a667876c-244a-4efb-8323-c7846c94eda2.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 8,
+                "sodium": 7,
+                "protein": 15,
+                "carb": 24,
+                "calories": 251
+            }
+        },
+        {
+            "id": 48,
+            "name": "INDIAN SOUP",
+            "category": "ZUPY",
+            "price": "17,00 zł",
+            "desc": "Klasyczna indyjska zupa z kurczakiem orz warzywami orz Krewetki",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/fb511417-898b-40dc-a61b-05873fba9354.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 18,
+                "sodium": 15,
+                "protein": 21,
+                "carb": 12,
+                "calories": 535
+            }
+        },
+        {
+            "id": 49,
             "name": "DAL SHORBA",
             "category": "ZUPY",
             "price": "17,00 zł",
             "desc": "Zupa z żółtej soczewicy z imbirem oraz tradycyjnymi indyjskimi przyprawami.Yellow lentil soup with ginger and traditional Indian spices.",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/a7090903-74b6-4c20-b6bb-2fbd94946450.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1125&w=1920",
             "allergens": {
-                "lactose": 0,
+                "lactose": 1,
                 "gluten": 0,
-                "mushrooms": 1,
-                "nuts": 0,
+                "mushrooms": 0,
+                "nuts": 1,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 4,
+                "fat": 15,
                 "sodium": 26,
-                "protein": 21,
-                "carb": 21,
-                "calories": 520
+                "protein": 16,
+                "carb": 28,
+                "calories": 279
             }
         },
         {
+            "id": 50,
             "name": "TOMATO SHORBA",
             "category": "ZUPY",
             "price": "17,00 zł",
@@ -1038,19 +1088,20 @@
             "allergens": {
                 "lactose": 0,
                 "gluten": 1,
-                "mushrooms": 1,
+                "mushrooms": 0,
                 "nuts": 0,
                 "soya": 1
             },
             "nutrition": {
-                "fat": 7,
-                "sodium": 9,
-                "protein": 16,
-                "carb": 14,
-                "calories": 249
+                "fat": 10,
+                "sodium": 15,
+                "protein": 13,
+                "carb": 16,
+                "calories": 528
             }
         },
         {
+            "id": 51,
             "name": "HOT AND SOUR SOUP",
             "category": "ZUPY",
             "price": "19,00 zł",
@@ -1058,62 +1109,65 @@
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/f2aa85e3-ab59-4cfe-9ab0-ae20c488cc47.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
             "allergens": {
                 "lactose": 1,
-                "gluten": 0,
+                "gluten": 1,
                 "mushrooms": 0,
+                "nuts": 0,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 16,
+                "sodium": 12,
+                "protein": 12,
+                "carb": 14,
+                "calories": 326
+            }
+        },
+        {
+            "id": 52,
+            "name": "TOM KHA",
+            "category": "ZUPY",
+            "price": "19,00 zł",
+            "desc": "Popularna kremowa tajska zupa kokosowa z trawą cytrynową, imbirem, galangalem, cebulą, liśćmi limonki, świeżymi pieczarkami i kolendrą.Famous creamy coconut soup with lemon grass, ginger, galangal, onion, fresh lime leaves, fresh sliced mushrooms & coriander.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/4a0342a6-9db9-4557-bd78-46d5002e9968.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1409&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 1,
                 "nuts": 1,
                 "soya": 1
             },
             "nutrition": {
                 "fat": 18,
-                "sodium": 6,
-                "protein": 15,
-                "carb": 27,
-                "calories": 360
-            }
-        },
-        {
-            "name": "TOM KHA",
-            "category": "ZUPY",
-            "price": "19,00 zł",
-            "desc": "Popularna kremowa tajska zupa kokosowa z trawą cytrynową, imbirem, galangalem, cebulą, liśśmi limonki, świeżymi pieczarkami i kolendrą.Famous creamy coconut soup with lemon grass, ginger, galangal, onion, fresh lime leaves, fresh sliced mushrooms & coriander.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/4a0342a6-9db9-4557-bd78-46d5002e9968.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1409&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 13,
-                "sodium": 31,
-                "protein": 11,
+                "sodium": 26,
+                "protein": 13,
                 "carb": 21,
-                "calories": 575
+                "calories": 203
             }
         },
         {
+            "id": 53,
             "name": "TOM YUM",
             "category": "ZUPY",
             "price": "19,00 zł",
-            "desc": "Zupa o ostro-kwaśnym smaku z aromatycznymi przyprawami: trawą cytrynową, galangalem, liśśmi limonki, cebulą oraz plastrami świeżych boczniaków i kolendrą.Thailand's famous hot and sour soup with fragrant spices: lemon grass, galangal, fresh lime leaves, onion, fresh oyster mushrooms; garnished with coriander.",
+            "desc": "Zupa o ostro-kwaśnym smaku z aromatycznymi przyprawami: trawą cytrynową, galangalem, liśćmi limonki, cebulą oraz plastrami świeżych boczniaków i kolendrą.Thailand's famous hot and sour soup with fragrant spices: lemon grass, galangal, fresh lime leaves, onion, fresh oyster mushrooms; garnished with coriander.",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/4658cb4e-5cde-4bbb-a456-89f1bf03bfa2.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
             "allergens": {
-                "lactose": 1,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 0,
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
                 "soya": 1
             },
             "nutrition": {
-                "fat": 21,
-                "sodium": 9,
-                "protein": 3,
-                "carb": 34,
-                "calories": 574
+                "fat": 24,
+                "sodium": 11,
+                "protein": 7,
+                "carb": 26,
+                "calories": 478
             }
         },
         {
+            "id": 54,
             "name": "PAD THAI",
             "category": "THAI DISHES",
             "price": "31,00 zł",
@@ -1121,41 +1175,43 @@
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/47390e03-b217-4c9d-922a-1e68c1b6bf0b.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C782%2C458&w=1920",
             "allergens": {
                 "lactose": 1,
-                "gluten": 1,
+                "gluten": 0,
                 "mushrooms": 1,
                 "nuts": 0,
                 "soya": 0
             },
             "nutrition": {
                 "fat": 7,
-                "sodium": 10,
-                "protein": 8,
-                "carb": 23,
-                "calories": 357
+                "sodium": 13,
+                "protein": 3,
+                "carb": 15,
+                "calories": 261
             }
         },
         {
+            "id": 55,
             "name": "THAI SPECIAL CASHEW NUT",
             "category": "THAI DISHES",
             "price": "33,00 zł",
             "desc": "Danie w sosie sojowym z tradycyjnymi tajskimi przyprawami z papryką, cebulą, cukinią, pieczarkami i smażonymi orzechami nerkowca.In soya sauce with traditional thai spices with capsicum, onion, zucchini, mushrooms and fried cashew nut.",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/dee0f9c5-9212-4390-9bba-383082be7ae6.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C806%2C478&w=1920",
             "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 0,
+                "lactose": 0,
+                "gluten": 0,
+                "mushrooms": 1,
                 "nuts": 0,
-                "soya": 0
+                "soya": 1
             },
             "nutrition": {
-                "fat": 15,
-                "sodium": 15,
-                "protein": 28,
+                "fat": 11,
+                "sodium": 40,
+                "protein": 19,
                 "carb": 25,
-                "calories": 402
+                "calories": 338
             }
         },
         {
+            "id": 56,
             "name": "THAI SPECIAL BAZYLIA",
             "category": "THAI DISHES",
             "price": "35,00 zł",
@@ -1165,43 +1221,45 @@
                 "lactose": 1,
                 "gluten": 0,
                 "mushrooms": 1,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 17,
-                "sodium": 5,
-                "protein": 17,
-                "carb": 23,
-                "calories": 486
-            }
-        },
-        {
-            "name": "THAI CURRY: CZERWONE (RED)",
-            "category": "THAI DISHES",
-            "price": "29,00 zł",
-            "desc": "Danie na bazie domowej czerwonej pasty curry gotowanej w mleku kokosowym z bambusem, zieloną fasolą, bakłażanem, liśśmi limonki i świeżą bazylią.Authentic curry cooked in coconut milk, bamboo, green beans, eggplant, lime leaves and fresh basil.",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/78f9fc9b-4440-4ffd-b78f-51d3ec126ae8.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1335&w=1920",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 0,
                 "nuts": 0,
                 "soya": 1
             },
             "nutrition": {
-                "fat": 19,
-                "sodium": 39,
-                "protein": 4,
-                "carb": 20,
-                "calories": 480
+                "fat": 21,
+                "sodium": 25,
+                "protein": 20,
+                "carb": 26,
+                "calories": 366
             }
         },
         {
+            "id": 57,
+            "name": "THAI CURRY: CZERWONE (RED)",
+            "category": "THAI DISHES",
+            "price": "29,00 zł",
+            "desc": "Danie na bazie domowej czerwonej pasty curry gotowanej w mleku kokosowym z bambusem, zieloną fasolą, bakłażanem, liśćmi limonki i świeżą bazylią.Authentic curry cooked in coconut milk, bamboo, green beans, eggplant, lime leaves and fresh basil.",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/78f9fc9b-4440-4ffd-b78f-51d3ec126ae8.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1335&w=1920",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 9,
+                "sodium": 10,
+                "protein": 12,
+                "carb": 11,
+                "calories": 493
+            }
+        },
+        {
+            "id": 58,
             "name": "THAI CURRY: ZIELONE (GREEN)",
             "category": "THAI DISHES",
             "price": "29,00 zł",
-            "desc": "Danie na bazie domowej zielonej pasty curry gotowanej w mleku kokosowym z bambusem, zieloną fasolą, bakłażanem, liśśmi limonki i świeżą bazylią.Authentic curry cooked in coconut milk, bamboo, green beans, eggplant, lime leaves and fresh basil.",
+            "desc": "Danie na bazie domowej zielonej pasty curry gotowanej w mleku kokosowym z bambusem, zieloną fasolą, bakłażanem, liśćmi limonki i świeżą bazylią.Authentic curry cooked in coconut milk, bamboo, green beans, eggplant, lime leaves and fresh basil.",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/63d004c3-2075-488f-93ad-cf917d07d7ee.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1330&w=1920",
             "allergens": {
                 "lactose": 0,
@@ -1211,35 +1269,37 @@
                 "soya": 1
             },
             "nutrition": {
-                "fat": 16,
-                "sodium": 18,
-                "protein": 12,
-                "carb": 32,
-                "calories": 523
+                "fat": 9,
+                "sodium": 10,
+                "protein": 29,
+                "carb": 24,
+                "calories": 432
             }
         },
         {
-            "name": "THAI CURRY: żółte (YELLOW )",
+            "id": 59,
+            "name": "THAI CURRY: Żółte (YELLOW )",
             "category": "THAI DISHES",
             "price": "29,00 zł",
-            "desc": "Danie na bazie domowej żółtej pasty curry gotowanej w mleku kokosowym z bambusem, zieloną fasolą, bakłażanem, liśśmi limonki i świeżą bazylią.Authentic curry cooked in coconut milk, bamboo, green beans, eggplant, lime leaves and fresh basil.",
+            "desc": "Danie na bazie domowej żółtej pasty curry gotowanej w mleku kokosowym z bambusem, zieloną fasolą, bakłażanem, liśćmi limonki i świeżą bazylią.Authentic curry cooked in coconut milk, bamboo, green beans, eggplant, lime leaves and fresh basil.",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/0468284e-e276-4f2e-8261-63db3175ed8c.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1324&w=1920",
             "allergens": {
-                "lactose": 0,
+                "lactose": 1,
                 "gluten": 1,
                 "mushrooms": 1,
-                "nuts": 1,
-                "soya": 0
+                "nuts": 0,
+                "soya": 1
             },
             "nutrition": {
-                "fat": 11,
-                "sodium": 7,
-                "protein": 10,
-                "carb": 15,
-                "calories": 479
+                "fat": 17,
+                "sodium": 17,
+                "protein": 21,
+                "carb": 29,
+                "calories": 374
             }
         },
         {
+            "id": 60,
             "name": "Zestaw dla dwóch osób: 1X Dal Shorba  1X Chicken Lollipop (6szt.) 1X Butter Chicken  1X Garlic Naan 1X Rice Basmati  1X Gulab Jamun",
             "category": "ZESTAW",
             "price": "99,00 zł",
@@ -1247,62 +1307,65 @@
             "image": "https://restaumatic-production.imgix.net/uploads/media_library/e7b4b1d398966c883bd238bd91c443a8.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1140%2C150&w=1920",
             "allergens": {
                 "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 0,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 6,
-                "sodium": 24,
-                "protein": 23,
-                "carb": 34,
-                "calories": 487
-            }
-        },
-        {
-            "name": "Zestaw dla trzech osób: 1X Warzywa Mix Pakora 1X Chicken Lollypop (6szt.) 1X Masala Papad 1X Chicken Tikka Masala 1X Chicken Korma 1X Butter Naan 1X Parantha 1X Rice basmati 1x Indian Kuchumbar Salad",
-            "category": "ZESTAW",
-            "price": "159,00 zł",
-            "desc": "",
-            "image": "https://restaumatic-production.imgix.net/uploads/media_library/5048edc7d031b35db2915b4ddbae3921.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1140%2C150&w=1920",
-            "allergens": {
-                "lactose": 1,
                 "gluten": 0,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 1
-            },
-            "nutrition": {
-                "fat": 21,
-                "sodium": 32,
-                "protein": 27,
-                "carb": 25,
-                "calories": 323
-            }
-        },
-        {
-            "name": "Zestaw dla czterech osób: 1X Mix -Veg Pakora 1X Veg Samosa (2szt.)   1X Chicken Lollipop (6szt.) 1X Butter Chicken  1X Balti Chicken   1X Paneer Jalfrezi  2X Garlic Naans  1x Jeera Rice  1x Indian Kuchumbar Salad  2X Gulab Jamun (4szt.)",
-            "category": "ZESTAW",
-            "price": "199,00 zł",
-            "desc": "",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/c9e3a043-17f6-4838-83ad-ab092e734291.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C810%2C694&w=1920",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
                 "mushrooms": 0,
                 "nuts": 0,
                 "soya": 0
             },
             "nutrition": {
                 "fat": 10,
-                "sodium": 27,
-                "protein": 10,
-                "carb": 14,
-                "calories": 400
+                "sodium": 20,
+                "protein": 29,
+                "carb": 18,
+                "calories": 382
             }
         },
         {
+            "id": 61,
+            "name": "Zestaw dla trzech osób: 1X Warzywa Mix Pakora 1X Chicken Lollypop (6szt.) 1X Masala Papad 1X Chicken Tikka Masala 1X Chicken Korma 1X Butter Naan 1X Parantha 1X Rice basmati 1x Indian Kuchumbar Salad",
+            "category": "ZESTAW",
+            "price": "159,00 zł",
+            "desc": "",
+            "image": "https://restaumatic-production.imgix.net/uploads/media_library/5048edc7d031b35db2915b4ddbae3921.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1140%2C150&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 0,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 15,
+                "sodium": 12,
+                "protein": 10,
+                "carb": 17,
+                "calories": 564
+            }
+        },
+        {
+            "id": 62,
+            "name": "Zestaw dla czterech osób: 1X Mix -Veg Pakora 1X Veg Samosa (2szt.)   1X Chicken Lollipop (6szt.) 1X Butter Chicken  1X Balti Chicken   1X Paneer Jalfrezi  2X Garlic Naans  1x Jeera Rice  1x Indian Kuchumbar Salad  2X Gulab Jamun (4szt.)",
+            "category": "ZESTAW",
+            "price": "199,00 zł",
+            "desc": "",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/c9e3a043-17f6-4838-83ad-ab092e734291.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C810%2C694&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 0,
+                "mushrooms": 1,
+                "nuts": 0,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 5,
+                "sodium": 12,
+                "protein": 11,
+                "carb": 28,
+                "calories": 378
+            }
+        },
+        {
+            "id": 63,
             "name": "Zestaw dla sześciu osób: 1X Chicken Lollipop (6szt.)  1X Chicken Manchurian 1X Bawarchi Special Pakora Platter [mix-veg (8szt.), chicken pakora (2szt.), paneer pakora (2szt.), prawns (2szt.)] 1X Dal Tadka  1x Chicken Jalgrezi  1X Bhuna Lamb Masala  1X Paneer Matar Mushroom  2X Pudina Naans  1X Garlic Naan  1X Onion Rice  1X Rice Basmati 2X Rasmalai (4 szt.) 1X Gulab Jamuns (2 szt.)",
             "category": "ZESTAW",
             "price": "299,00 zł",
@@ -1310,22 +1373,23 @@
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/5a5bbc7c-16a7-4c63-9f53-cfba2fcd1776.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C960%2C750&w=1920",
             "allergens": {
                 "lactose": 0,
-                "gluten": 1,
+                "gluten": 0,
                 "mushrooms": 1,
-                "nuts": 1,
+                "nuts": 0,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 12,
-                "sodium": 38,
-                "protein": 4,
-                "carb": 12,
-                "calories": 410
+                "fat": 9,
+                "sodium": 18,
+                "protein": 25,
+                "carb": 19,
+                "calories": 430
             }
         },
         {
+            "id": 64,
             "name": "STEAM BASMATI RICE",
-            "category": "RYż",
+            "category": "RYŻ",
             "price": "7,00 zł",
             "desc": "Gotowany ryż basmati",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/3b83b023-cc65-4d8b-a2ee-1dfc0936651c.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1125&w=1920",
@@ -1333,20 +1397,21 @@
                 "lactose": 1,
                 "gluten": 1,
                 "mushrooms": 1,
-                "nuts": 0,
+                "nuts": 1,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 6,
-                "sodium": 5,
-                "protein": 11,
-                "carb": 10,
-                "calories": 251
+                "fat": 18,
+                "sodium": 39,
+                "protein": 7,
+                "carb": 28,
+                "calories": 492
             }
         },
         {
+            "id": 65,
             "name": "PULAO",
-            "category": "RYż",
+            "category": "RYŻ",
             "price": "17,00 zł",
             "desc": "Ryż basmati z kminem lub z warzywami",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/40135/media_library/e8963fa6-d5bc-44f7-bc3e-a571232c2da0.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1333%2C2000&w=1920",
@@ -1358,37 +1423,39 @@
                 "soya": 1
             },
             "nutrition": {
-                "fat": 21,
-                "sodium": 30,
-                "protein": 21,
-                "carb": 19,
-                "calories": 258
+                "fat": 17,
+                "sodium": 7,
+                "protein": 14,
+                "carb": 10,
+                "calories": 196
             }
         },
         {
+            "id": 66,
             "name": "FRIED RICE",
-            "category": "RYż",
+            "category": "RYŻ",
             "price": "27,00 zł",
             "desc": "Ryż smażony z jajkiem lub z kurczakiem",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/40135/media_library/8bf71d65-402e-4431-8ef9-88ded900a283.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1333&w=1920",
             "allergens": {
-                "lactose": 0,
-                "gluten": 0,
+                "lactose": 1,
+                "gluten": 1,
                 "mushrooms": 1,
                 "nuts": 1,
-                "soya": 1
+                "soya": 0
             },
             "nutrition": {
-                "fat": 24,
-                "sodium": 7,
-                "protein": 3,
-                "carb": 14,
-                "calories": 377
+                "fat": 12,
+                "sodium": 19,
+                "protein": 26,
+                "carb": 34,
+                "calories": 545
             }
         },
         {
+            "id": 67,
             "name": "BIRYANI (SERVED WITH RAITA)",
-            "category": "RYż",
+            "category": "RYŻ",
             "price": "31,00 zł",
             "desc": "Aromatyczny ryż basma duszony z warzywami i serem paneer lub z kurczakiem lub z jagnięciną lub z krewetkami i serwowane z gotowanym jajkiem",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/62596c3a-97e9-4efb-8680-e5fd5e04f86e.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C892%2C596&w=1920",
@@ -1396,42 +1463,22 @@
                 "lactose": 1,
                 "gluten": 1,
                 "mushrooms": 0,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 24,
-                "sodium": 14,
-                "protein": 27,
-                "carb": 18,
-                "calories": 190
-            }
-        },
-        {
-            "name": "Tikka Salad ser paneer",
-            "category": "TIKKA SALAD",
-            "price": "31,00 zł",
-            "desc": "",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
-            "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 1,
+                "nuts": 0,
                 "soya": 1
             },
             "nutrition": {
-                "fat": 20,
-                "sodium": 39,
-                "protein": 6,
-                "carb": 13,
-                "calories": 400
+                "fat": 3,
+                "sodium": 12,
+                "protein": 25,
+                "carb": 15,
+                "calories": 377
             }
         },
         {
-            "name": "Tikka Salad kurczak / chicken",
+            "id": 68,
+            "name": "Tikka Salad ser paneer",
             "category": "TIKKA SALAD",
-            "price": "35,00 zł",
+            "price": "31,00 zł",
             "desc": "",
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
@@ -1442,14 +1489,37 @@
                 "soya": 1
             },
             "nutrition": {
-                "fat": 22,
-                "sodium": 30,
-                "protein": 16,
-                "carb": 13,
-                "calories": 520
+                "fat": 20,
+                "sodium": 37,
+                "protein": 28,
+                "carb": 26,
+                "calories": 529
             }
         },
         {
+            "id": 69,
+            "name": "Tikka Salad kurczak / chicken",
+            "category": "TIKKA SALAD",
+            "price": "35,00 zł",
+            "desc": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 5,
+                "sodium": 37,
+                "protein": 10,
+                "carb": 11,
+                "calories": 292
+            }
+        },
+        {
+            "id": 70,
             "name": "Tikka Salad krewetki / prawns",
             "category": "TIKKA SALAD",
             "price": "47,00 zł",
@@ -1463,121 +1533,127 @@
                 "soya": 0
             },
             "nutrition": {
-                "fat": 22,
-                "sodium": 7,
-                "protein": 27,
-                "carb": 26,
-                "calories": 567
+                "fat": 4,
+                "sodium": 6,
+                "protein": 28,
+                "carb": 29,
+                "calories": 226
             }
         },
         {
+            "id": 71,
             "name": "MANGO LASSI",
-            "category": "INDYJSKIE NAPóJ LASSI",
+            "category": "INDYJSKIE NAPÓJ LASSI",
             "price": "13,00 zł",
             "desc": "",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/59dda6ca-58bd-456d-858c-9f0b7c9fb7e5.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C787%2C827&w=1920",
             "allergens": {
-                "lactose": 0,
+                "lactose": 1,
                 "gluten": 0,
-                "mushrooms": 0,
+                "mushrooms": 1,
                 "nuts": 0,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 16,
+                "fat": 8,
                 "sodium": 39,
-                "protein": 26,
-                "carb": 23,
-                "calories": 436
+                "protein": 21,
+                "carb": 16,
+                "calories": 568
             }
         },
         {
+            "id": 72,
             "name": "BANANA LASSI",
-            "category": "INDYJSKIE NAPóJ LASSI",
+            "category": "INDYJSKIE NAPÓJ LASSI",
             "price": "13,00 zł",
             "desc": "",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/c28280ac-309c-45f6-935b-30d3a1506abc.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1440%2C810&w=1920",
             "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 1,
-                "soya": 0
+                "lactose": 1,
+                "gluten": 0,
+                "mushrooms": 0,
+                "nuts": 0,
+                "soya": 1
             },
             "nutrition": {
-                "fat": 16,
-                "sodium": 12,
-                "protein": 29,
-                "carb": 26,
-                "calories": 499
+                "fat": 10,
+                "sodium": 7,
+                "protein": 25,
+                "carb": 32,
+                "calories": 364
             }
         },
         {
+            "id": 73,
             "name": "MINT PUDINA LASSI",
-            "category": "INDYJSKIE NAPóJ LASSI",
+            "category": "INDYJSKIE NAPÓJ LASSI",
             "price": "13,00 zł",
             "desc": "",
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
                 "lactose": 1,
-                "gluten": 1,
+                "gluten": 0,
                 "mushrooms": 0,
-                "nuts": 1,
-                "soya": 0
+                "nuts": 0,
+                "soya": 1
             },
             "nutrition": {
-                "fat": 13,
-                "sodium": 38,
-                "protein": 23,
-                "carb": 22,
-                "calories": 328
+                "fat": 20,
+                "sodium": 26,
+                "protein": 26,
+                "carb": 14,
+                "calories": 206
             }
         },
         {
+            "id": 74,
             "name": "GARLIC LASSI",
-            "category": "INDYJSKIE NAPóJ LASSI",
+            "category": "INDYJSKIE NAPÓJ LASSI",
             "price": "13,00 zł",
             "desc": "",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/e986717b-007e-4e82-b304-a82aa9dbd18c.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1125&w=1920",
             "allergens": {
-                "lactose": 0,
-                "gluten": 1,
+                "lactose": 1,
+                "gluten": 0,
                 "mushrooms": 0,
                 "nuts": 1,
                 "soya": 1
             },
             "nutrition": {
-                "fat": 4,
-                "sodium": 17,
-                "protein": 4,
-                "carb": 17,
-                "calories": 446
+                "fat": 3,
+                "sodium": 12,
+                "protein": 9,
+                "carb": 21,
+                "calories": 505
             }
         },
         {
+            "id": 75,
             "name": "SALTY LASSI",
-            "category": "INDYJSKIE NAPóJ LASSI",
+            "category": "INDYJSKIE NAPÓJ LASSI",
             "price": "13,00 zł",
             "desc": "",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/de78c4f7-e7e2-429c-94d9-f043df1869da.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1333%2C2000&w=1920",
             "allergens": {
-                "lactose": 1,
-                "gluten": 0,
+                "lactose": 0,
+                "gluten": 1,
                 "mushrooms": 1,
-                "nuts": 1,
-                "soya": 1
+                "nuts": 0,
+                "soya": 0
             },
             "nutrition": {
                 "fat": 25,
-                "sodium": 11,
-                "protein": 17,
-                "carb": 29,
-                "calories": 231
+                "sodium": 24,
+                "protein": 29,
+                "carb": 20,
+                "calories": 342
             }
         },
         {
+            "id": 76,
             "name": "SWEET LASSI",
-            "category": "INDYJSKIE NAPóJ LASSI",
+            "category": "INDYJSKIE NAPÓJ LASSI",
             "price": "13,00 zł",
             "desc": "",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/c49f31df-817a-412d-8618-38d4bfc70f4b.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1440%2C810&w=1920",
@@ -1585,20 +1661,21 @@
                 "lactose": 0,
                 "gluten": 0,
                 "mushrooms": 0,
-                "nuts": 0,
+                "nuts": 1,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 13,
-                "sodium": 31,
-                "protein": 11,
+                "fat": 20,
+                "sodium": 8,
+                "protein": 22,
                 "carb": 24,
-                "calories": 550
+                "calories": 229
             }
         },
         {
+            "id": 77,
             "name": "SPECIAL MANGO BANANA LASSI",
-            "category": "INDYJSKIE NAPóJ LASSI",
+            "category": "INDYJSKIE NAPÓJ LASSI",
             "price": "15,00 zł",
             "desc": "",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/397f4903-e058-4d29-906b-1492d09ca7d0.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1000%2C562&w=1920",
@@ -1610,77 +1687,81 @@
                 "soya": 0
             },
             "nutrition": {
-                "fat": 3,
-                "sodium": 13,
-                "protein": 21,
-                "carb": 16,
-                "calories": 577
+                "fat": 7,
+                "sodium": 12,
+                "protein": 3,
+                "carb": 20,
+                "calories": 501
             }
         },
         {
+            "id": 78,
             "name": "CORIANDER CUMIN NAAN",
             "category": "PIECZYWO Z PIECA TANDOOR",
             "price": "17,00 zł",
-            "desc": "Kminek jest dobrym żródłem potasu i żelaza, które pomagają budowaś system odpornościowy. Cumin is a good source of potassium and iron which helps building up your immune system.",
+            "desc": "Kminek jest dobrym źródłem potasu i żelaza, które pomagają budować system odpornościowy. Cumin is a good source of potassium and iron which helps building up your immune system.",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/921d4b96-8657-47d0-bb57-22466bb232de.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1600%2C1076&w=1920",
             "allergens": {
-                "lactose": 0,
-                "gluten": 1,
+                "lactose": 1,
+                "gluten": 0,
                 "mushrooms": 0,
-                "nuts": 0,
-                "soya": 1
+                "nuts": 1,
+                "soya": 0
             },
             "nutrition": {
-                "fat": 13,
-                "sodium": 13,
-                "protein": 27,
-                "carb": 24,
-                "calories": 227
+                "fat": 19,
+                "sodium": 23,
+                "protein": 3,
+                "carb": 13,
+                "calories": 533
             }
         },
         {
+            "id": 79,
             "name": "ALOO STUFFED NAAN",
             "category": "PIECZYWO Z PIECA TANDOOR",
             "price": "19,00 zł",
             "desc": "ziemniaki i świeża kolendra nadziewane różnymi indyjskimi przyprawami pieczone w indyjskim piecu tandoori",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/7467d3f7-c16d-4e42-acad-10a76bb7e20d.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1334&w=1920",
             "allergens": {
-                "lactose": 1,
+                "lactose": 0,
                 "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 0,
+                "mushrooms": 1,
+                "nuts": 1,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 12,
-                "sodium": 7,
-                "protein": 27,
-                "carb": 34,
-                "calories": 476
+                "fat": 11,
+                "sodium": 33,
+                "protein": 12,
+                "carb": 17,
+                "calories": 328
             }
         },
         {
+            "id": 80,
             "name": "PANEER STUFFED NAAN",
             "category": "PIECZYWO Z PIECA TANDOOR",
             "price": "19,00 zł",
             "desc": "nadziewany indyjski ser paneer z różnorodnymi indyjskimi przyprawami pieczony w indyjskim piecu tandoori",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/f6b02f87-54ce-4824-9c0a-910fadccce18.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1600&w=1920",
             "allergens": {
-                "lactose": 0,
-                "gluten": 0,
+                "lactose": 1,
+                "gluten": 1,
                 "mushrooms": 1,
-                "nuts": 1,
+                "nuts": 0,
                 "soya": 1
             },
             "nutrition": {
-                "fat": 22,
-                "sodium": 13,
-                "protein": 12,
-                "carb": 28,
-                "calories": 511
+                "fat": 7,
+                "sodium": 15,
+                "protein": 4,
+                "carb": 23,
+                "calories": 258
             }
         },
         {
+            "id": 81,
             "name": "FENUGREEK METHI NAAN",
             "category": "PIECZYWO Z PIECA TANDOOR",
             "price": "15,00 zł",
@@ -1688,20 +1769,21 @@
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/0d4107d8-de6d-4b97-ab9e-4adf54923b60.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1600%2C1076&w=1920",
             "allergens": {
                 "lactose": 0,
-                "gluten": 0,
-                "mushrooms": 1,
-                "nuts": 0,
+                "gluten": 1,
+                "mushrooms": 0,
+                "nuts": 1,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 12,
-                "sodium": 10,
-                "protein": 10,
-                "carb": 30,
-                "calories": 190
+                "fat": 17,
+                "sodium": 13,
+                "protein": 13,
+                "carb": 22,
+                "calories": 555
             }
         },
         {
+            "id": 82,
             "name": "PESHAWARI NAAN",
             "category": "PIECZYWO Z PIECA TANDOOR",
             "price": "23,00 zł",
@@ -1710,19 +1792,20 @@
             "allergens": {
                 "lactose": 0,
                 "gluten": 1,
-                "mushrooms": 0,
+                "mushrooms": 1,
                 "nuts": 0,
-                "soya": 0
+                "soya": 1
             },
             "nutrition": {
-                "fat": 25,
+                "fat": 5,
                 "sodium": 29,
-                "protein": 23,
-                "carb": 14,
-                "calories": 223
+                "protein": 21,
+                "carb": 23,
+                "calories": 267
             }
         },
         {
+            "id": 83,
             "name": "SPECIAL KEEMA NAAN (Podawane z curry / SERVED WITH CURRY)",
             "category": "PIECZYWO Z PIECA TANDOOR",
             "price": "33,00 zł",
@@ -1730,20 +1813,21 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
                 "lactose": 1,
-                "gluten": 1,
+                "gluten": 0,
                 "mushrooms": 1,
-                "nuts": 0,
+                "nuts": 1,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 3,
-                "sodium": 25,
-                "protein": 25,
-                "carb": 32,
-                "calories": 302
+                "fat": 13,
+                "sodium": 14,
+                "protein": 22,
+                "carb": 23,
+                "calories": 376
             }
         },
         {
+            "id": 84,
             "name": "HEALTHY KLONJI NAAN",
             "category": "PIECZYWO Z PIECA TANDOOR",
             "price": "15,00 zł",
@@ -1751,20 +1835,21 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
                 "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 0
+                "gluten": 0,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
             },
             "nutrition": {
-                "fat": 17,
-                "sodium": 34,
-                "protein": 3,
-                "carb": 23,
-                "calories": 552
+                "fat": 19,
+                "sodium": 31,
+                "protein": 7,
+                "carb": 26,
+                "calories": 347
             }
         },
         {
+            "id": 85,
             "name": "FENUGREEK METHI ROTI",
             "category": "PIECZYWO Z PIECA TANDOOR",
             "price": "15,00 zł",
@@ -1772,108 +1857,25 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
                 "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 12,
-                "sodium": 17,
-                "protein": 18,
-                "carb": 14,
-                "calories": 474
-            }
-        },
-        {
-            "name": "MINT PUDINA ROTI",
-            "category": "PIECZYWO Z PIECA TANDOOR",
-            "price": "15,00 zł",
-            "desc": "Mięta jest bogatym żródłem żelaza, potasu i manganu, które podnoszą poziom odporności.Mint is rich sources of iron, potassium, and manganese which improves immunity levels.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 10,
-                "sodium": 36,
-                "protein": 15,
-                "carb": 30,
-                "calories": 216
-            }
-        },
-        {
-            "name": "PARATHAS",
-            "category": "PIECZYWO Z PIECA TANDOOR",
-            "price": "11,00 zł",
-            "desc": "placek wielowarstwowy",
-            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/a1342d69-c0ef-4b7b-aefe-35bc395d2825.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
-            "allergens": {
-                "lactose": 1,
                 "gluten": 0,
                 "mushrooms": 0,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 16,
-                "sodium": 29,
-                "protein": 5,
-                "carb": 29,
-                "calories": 462
-            }
-        },
-        {
-            "name": "GARLIC NAAN",
-            "category": "PIECZYWO Z PIECA TANDOOR",
-            "price": "11,00 zł",
-            "desc": "",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 0,
-                "soya": 0
-            },
-            "nutrition": {
-                "fat": 25,
-                "sodium": 11,
-                "protein": 18,
-                "carb": 29,
-                "calories": 482
-            }
-        },
-        {
-            "name": "BUTTER NAAN",
-            "category": "PIECZYWO Z PIECA TANDOOR",
-            "price": "11,00 zł",
-            "desc": "",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
-            "allergens": {
-                "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 1,
                 "nuts": 0,
                 "soya": 1
             },
             "nutrition": {
                 "fat": 20,
-                "sodium": 28,
-                "protein": 7,
-                "carb": 19,
-                "calories": 283
+                "sodium": 25,
+                "protein": 5,
+                "carb": 22,
+                "calories": 220
             }
         },
         {
-            "name": "LACHHA PARANTHA",
+            "id": 86,
+            "name": "MINT PUDINA ROTI",
             "category": "PIECZYWO Z PIECA TANDOOR",
             "price": "15,00 zł",
-            "desc": "",
+            "desc": "Mięta jest bogatym źródłem żelaza, potasu i manganu, które podnoszą poziom odporności.Mint is rich sources of iron, potassium, and manganese which improves immunity levels.",
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
                 "lactose": 1,
@@ -1884,13 +1886,102 @@
             },
             "nutrition": {
                 "fat": 8,
-                "sodium": 37,
-                "protein": 4,
-                "carb": 30,
-                "calories": 278
+                "sodium": 19,
+                "protein": 21,
+                "carb": 22,
+                "calories": 261
             }
         },
         {
+            "id": 87,
+            "name": "PARATHAS",
+            "category": "PIECZYWO Z PIECA TANDOOR",
+            "price": "11,00 zł",
+            "desc": "placek wielowarstwowy",
+            "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/a1342d69-c0ef-4b7b-aefe-35bc395d2825.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 0,
+                "mushrooms": 1,
+                "nuts": 0,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 14,
+                "sodium": 16,
+                "protein": 15,
+                "carb": 12,
+                "calories": 266
+            }
+        },
+        {
+            "id": 88,
+            "name": "GARLIC NAAN",
+            "category": "PIECZYWO Z PIECA TANDOOR",
+            "price": "11,00 zł",
+            "desc": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
+            },
+            "nutrition": {
+                "fat": 16,
+                "sodium": 28,
+                "protein": 28,
+                "carb": 19,
+                "calories": 504
+            }
+        },
+        {
+            "id": 89,
+            "name": "BUTTER NAAN",
+            "category": "PIECZYWO Z PIECA TANDOOR",
+            "price": "11,00 zł",
+            "desc": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+            "allergens": {
+                "lactose": 0,
+                "gluten": 0,
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 23,
+                "sodium": 6,
+                "protein": 15,
+                "carb": 18,
+                "calories": 273
+            }
+        },
+        {
+            "id": 90,
+            "name": "LACHHA PARANTHA",
+            "category": "PIECZYWO Z PIECA TANDOOR",
+            "price": "15,00 zł",
+            "desc": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+            "allergens": {
+                "lactose": 1,
+                "gluten": 0,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 0
+            },
+            "nutrition": {
+                "fat": 15,
+                "sodium": 38,
+                "protein": 22,
+                "carb": 12,
+                "calories": 489
+            }
+        },
+        {
+            "id": 91,
             "name": "BUTTER ROTI",
             "category": "PIECZYWO Z PIECA TANDOOR",
             "price": "9,00 zł",
@@ -1901,17 +1992,18 @@
                 "gluten": 1,
                 "mushrooms": 0,
                 "nuts": 1,
-                "soya": 0
+                "soya": 1
             },
             "nutrition": {
-                "fat": 23,
-                "sodium": 26,
-                "protein": 19,
-                "carb": 24,
-                "calories": 304
+                "fat": 12,
+                "sodium": 24,
+                "protein": 18,
+                "carb": 12,
+                "calories": 360
             }
         },
         {
+            "id": 92,
             "name": "GARLIC ROTI",
             "category": "PIECZYWO Z PIECA TANDOOR",
             "price": "11,00 zł",
@@ -1925,14 +2017,15 @@
                 "soya": 0
             },
             "nutrition": {
-                "fat": 9,
-                "sodium": 23,
-                "protein": 16,
-                "carb": 33,
-                "calories": 435
+                "fat": 4,
+                "sodium": 30,
+                "protein": 25,
+                "carb": 27,
+                "calories": 566
             }
         },
         {
+            "id": 93,
             "name": "PICKLE",
             "category": "DODATKI",
             "price": "5,00 zł",
@@ -1940,20 +2033,21 @@
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/40135/media_library/23ecad8e-8511-4f7b-aa22-d72fbb8893dd.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C884%2C613&w=1920",
             "allergens": {
                 "lactose": 0,
-                "gluten": 0,
+                "gluten": 1,
                 "mushrooms": 1,
-                "nuts": 0,
-                "soya": 1
+                "nuts": 1,
+                "soya": 0
             },
             "nutrition": {
-                "fat": 15,
-                "sodium": 16,
-                "protein": 12,
-                "carb": 22,
-                "calories": 249
+                "fat": 22,
+                "sodium": 18,
+                "protein": 8,
+                "carb": 13,
+                "calories": 551
             }
         },
         {
+            "id": 94,
             "name": "ONION SALAD",
             "category": "DODATKI",
             "price": "7,00 zł",
@@ -1961,20 +2055,21 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
                 "lactose": 1,
-                "gluten": 0,
+                "gluten": 1,
                 "mushrooms": 1,
                 "nuts": 0,
                 "soya": 1
             },
             "nutrition": {
-                "fat": 19,
-                "sodium": 26,
-                "protein": 14,
-                "carb": 11,
-                "calories": 270
+                "fat": 13,
+                "sodium": 15,
+                "protein": 27,
+                "carb": 19,
+                "calories": 364
             }
         },
         {
+            "id": 95,
             "name": "ROASTED PAPAD",
             "category": "DODATKI",
             "price": "7,00 zł",
@@ -1982,20 +2077,21 @@
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/272f3503-577e-4594-9545-33e34a105b0c.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C2000%2C1124&w=1920",
             "allergens": {
                 "lactose": 0,
-                "gluten": 1,
-                "mushrooms": 0,
+                "gluten": 0,
+                "mushrooms": 1,
                 "nuts": 0,
-                "soya": 0
+                "soya": 1
             },
             "nutrition": {
-                "fat": 7,
+                "fat": 25,
                 "sodium": 18,
-                "protein": 7,
-                "carb": 29,
-                "calories": 417
+                "protein": 9,
+                "carb": 16,
+                "calories": 294
             }
         },
         {
+            "id": 96,
             "name": "RAITA",
             "category": "DODATKI",
             "price": "11,00 zł",
@@ -2003,20 +2099,21 @@
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/40135/media_library/9632d608-dff0-4663-8b78-d85e4858337d.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1440%2C810&w=1920",
             "allergens": {
                 "lactose": 1,
-                "gluten": 0,
+                "gluten": 1,
                 "mushrooms": 0,
-                "nuts": 1,
+                "nuts": 0,
                 "soya": 1
             },
             "nutrition": {
-                "fat": 6,
-                "sodium": 16,
-                "protein": 13,
-                "carb": 13,
-                "calories": 312
+                "fat": 10,
+                "sodium": 18,
+                "protein": 22,
+                "carb": 23,
+                "calories": 557
             }
         },
         {
+            "id": 97,
             "name": "MASALA PAPAD",
             "category": "DODATKI",
             "price": "13,00 zł",
@@ -2025,40 +2122,42 @@
             "allergens": {
                 "lactose": 1,
                 "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 1,
+                "mushrooms": 0,
+                "nuts": 0,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 14,
-                "sodium": 18,
-                "protein": 23,
-                "carb": 18,
-                "calories": 495
+                "fat": 18,
+                "sodium": 37,
+                "protein": 15,
+                "carb": 33,
+                "calories": 334
             }
         },
         {
+            "id": 98,
             "name": "RASMALAI",
             "category": "DESERY",
             "price": "17,00 zł",
             "desc": "Ser chhana w mlecznym syropie, kardamon, szafran",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/7aec6add-571b-4e4e-8c93-305f914e73d0.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C610%2C680&w=1920",
             "allergens": {
-                "lactose": 0,
-                "gluten": 1,
+                "lactose": 1,
+                "gluten": 0,
                 "mushrooms": 0,
                 "nuts": 0,
-                "soya": 1
+                "soya": 0
             },
             "nutrition": {
-                "fat": 12,
-                "sodium": 20,
-                "protein": 26,
-                "carb": 27,
-                "calories": 258
+                "fat": 23,
+                "sodium": 27,
+                "protein": 24,
+                "carb": 29,
+                "calories": 399
             }
         },
         {
+            "id": 99,
             "name": "GULAB JAMUN",
             "category": "DESERY",
             "price": "13,00 zł",
@@ -2066,83 +2165,87 @@
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/d75abcfe-375f-4331-8fb1-ab9b003c644a.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C806%2C764&w=1920",
             "allergens": {
                 "lactose": 0,
-                "gluten": 0,
-                "mushrooms": 0,
-                "nuts": 0,
-                "soya": 0
+                "gluten": 1,
+                "mushrooms": 1,
+                "nuts": 1,
+                "soya": 1
             },
             "nutrition": {
-                "fat": 24,
-                "sodium": 29,
-                "protein": 5,
-                "carb": 27,
-                "calories": 325
+                "fat": 17,
+                "sodium": 25,
+                "protein": 16,
+                "carb": 12,
+                "calories": 488
             }
         },
         {
+            "id": 100,
             "name": "WODA  GAZOWANA",
             "category": "Napoje",
             "price": "6,00 zł",
             "desc": "",
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
-                "lactose": 0,
+                "lactose": 1,
                 "gluten": 0,
                 "mushrooms": 0,
-                "nuts": 0,
-                "soya": 0
+                "nuts": 1,
+                "soya": 1
             },
             "nutrition": {
-                "fat": 6,
-                "sodium": 5,
-                "protein": 15,
-                "carb": 22,
-                "calories": 569
+                "fat": 11,
+                "sodium": 3,
+                "protein": 13,
+                "carb": 25,
+                "calories": 481
             }
         },
         {
+            "id": 101,
             "name": "WODA NIEGAZOWANA",
             "category": "Napoje",
             "price": "6,00 zł",
             "desc": "",
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
-                "lactose": 1,
+                "lactose": 0,
                 "gluten": 1,
                 "mushrooms": 1,
                 "nuts": 0,
                 "soya": 1
             },
             "nutrition": {
-                "fat": 25,
-                "sodium": 24,
-                "protein": 21,
-                "carb": 25,
-                "calories": 327
+                "fat": 20,
+                "sodium": 4,
+                "protein": 12,
+                "carb": 30,
+                "calories": 374
             }
         },
         {
+            "id": 102,
             "name": "COCA COLA ORYGINAL",
             "category": "Napoje",
             "price": "7,00 zł",
             "desc": "",
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
-                "lactose": 1,
+                "lactose": 0,
                 "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 0,
-                "soya": 1
+                "mushrooms": 0,
+                "nuts": 1,
+                "soya": 0
             },
             "nutrition": {
-                "fat": 16,
-                "sodium": 18,
-                "protein": 10,
-                "carb": 29,
-                "calories": 267
+                "fat": 18,
+                "sodium": 14,
+                "protein": 27,
+                "carb": 13,
+                "calories": 435
             }
         },
         {
+            "id": 103,
             "name": "COCA COLA ZERO",
             "category": "Napoje",
             "price": "7,00 zł",
@@ -2151,40 +2254,42 @@
             "allergens": {
                 "lactose": 1,
                 "gluten": 1,
-                "mushrooms": 1,
-                "nuts": 0,
+                "mushrooms": 0,
+                "nuts": 1,
                 "soya": 1
             },
             "nutrition": {
-                "fat": 11,
-                "sodium": 4,
-                "protein": 5,
-                "carb": 33,
-                "calories": 464
+                "fat": 21,
+                "sodium": 16,
+                "protein": 26,
+                "carb": 25,
+                "calories": 481
             }
         },
         {
+            "id": 104,
             "name": "FANTA",
             "category": "Napoje",
             "price": "7,00 zł",
             "desc": "",
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
-                "lactose": 0,
+                "lactose": 1,
                 "gluten": 0,
                 "mushrooms": 1,
                 "nuts": 0,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 21,
-                "sodium": 38,
-                "protein": 21,
-                "carb": 19,
-                "calories": 498
+                "fat": 9,
+                "sodium": 3,
+                "protein": 15,
+                "carb": 13,
+                "calories": 461
             }
         },
         {
+            "id": 105,
             "name": "SPRITE",
             "category": "Napoje",
             "price": "7,00 zł",
@@ -2192,62 +2297,65 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
                 "lactose": 0,
-                "gluten": 0,
-                "mushrooms": 1,
+                "gluten": 1,
+                "mushrooms": 0,
                 "nuts": 1,
                 "soya": 0
             },
             "nutrition": {
-                "fat": 5,
-                "sodium": 3,
-                "protein": 3,
-                "carb": 32,
-                "calories": 259
+                "fat": 11,
+                "sodium": 4,
+                "protein": 10,
+                "carb": 22,
+                "calories": 250
             }
         },
         {
+            "id": 106,
             "name": "SOK pomarańczowy",
             "category": "Napoje",
             "price": "7,00 zł",
             "desc": "",
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
-                "lactose": 1,
-                "gluten": 1,
-                "mushrooms": 0,
-                "nuts": 1,
-                "soya": 1
+                "lactose": 0,
+                "gluten": 0,
+                "mushrooms": 1,
+                "nuts": 0,
+                "soya": 0
             },
             "nutrition": {
-                "fat": 11,
-                "sodium": 22,
-                "protein": 14,
-                "carb": 16,
-                "calories": 356
+                "fat": 15,
+                "sodium": 39,
+                "protein": 28,
+                "carb": 27,
+                "calories": 351
             }
         },
         {
+            "id": 107,
             "name": "SOK jabłkowy",
             "category": "Napoje",
             "price": "7,00 zł",
             "desc": "",
             "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
             "allergens": {
-                "lactose": 1,
-                "gluten": 0,
-                "mushrooms": 1,
+                "lactose": 0,
+                "gluten": 1,
+                "mushrooms": 0,
                 "nuts": 1,
-                "soya": 1
+                "soya": 0
             },
             "nutrition": {
-                "fat": 9,
-                "sodium": 30,
-                "protein": 22,
-                "carb": 27,
-                "calories": 345
+                "fat": 3,
+                "sodium": 23,
+                "protein": 4,
+                "carb": 26,
+                "calories": 451
             }
         },
         {
+            "id": 108,
             "name": "SOK czarna porzeczka",
             "category": "Napoje",
             "price": "7,00 zł",
@@ -2261,11 +2369,11 @@
                 "soya": 1
             },
             "nutrition": {
-                "fat": 12,
-                "sodium": 3,
-                "protein": 6,
-                "carb": 27,
-                "calories": 553
+                "fat": 25,
+                "sodium": 12,
+                "protein": 27,
+                "carb": 24,
+                "calories": 567
             }
         }
     ]
