@@ -12,6 +12,7 @@ import Grid from '@mui/material/Grid';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
 
 
 const theme = createTheme();
@@ -51,11 +52,11 @@ export default function Register() {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-            <LockOutlinedIcon />
+          <Avatar sx={{ m: 1, bgcolor: '#d42c2c' }}>
+            <AppRegistrationIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Sign up
+            Zarejestruj się
           </Typography>
           <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3, p:5}}>
             <Grid container spacing={2}>
@@ -66,7 +67,7 @@ export default function Register() {
                   required
                   fullWidth
                   id="firstName"
-                  label="First Name"
+                  label="Imię"
                   autoFocus
                 />
               </Grid>
@@ -75,7 +76,7 @@ export default function Register() {
                   required
                   fullWidth
                   id="lastName"
-                  label="Last Name"
+                  label="Nazwisko"
                   name="lastName"
                   autoComplete="family-name"
                 />
@@ -85,7 +86,7 @@ export default function Register() {
                   required
                   fullWidth
                   id="email"
-                  label="Email Address"
+                  label="Adres email"
                   name="email"
                   autoComplete="email"
                 />
@@ -95,16 +96,20 @@ export default function Register() {
                   required
                   fullWidth
                   name="password"
-                  label="Password"
+                  label="Hasło"
                   type="password"
                   id="password"
                   autoComplete="new-password"
                 />
               </Grid>
               <Grid item xs={12}>
-                <FormControlLabel
-                  control={<Checkbox value="allowExtraEmails" color="primary" />}
-                  label="I want to receive inspiration, marketing promotions and updates via email."
+                <TextField
+                  required
+                  fullWidth
+                  id="phone_number"
+                  label="Numer Telefonu"
+                  name="phone_number"
+                  autoComplete="phone-number"
                 />
               </Grid>
             </Grid>
@@ -114,12 +119,12 @@ export default function Register() {
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
-              Sign Up
+              Zarejestruj się
             </Button>
             <Grid container justifyContent="flex-end">
               <Grid item>
                 <Link href="#" variant="body2">
-                  Already have an account? Sign in
+                  Masz już konto? Zaloguj się!
                 </Link>
               </Grid>
             </Grid>
