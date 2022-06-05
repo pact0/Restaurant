@@ -7,7 +7,6 @@ import { ProductList } from "./products/ProductList";
 import { Navbar } from "./navbar/Navbar";
 import ProductDetailed from "./products/ProductDetailed";
 
-
 const App = () => (
   <div>
     <Navbar />

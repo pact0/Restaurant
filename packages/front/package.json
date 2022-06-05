@@ -6,7 +6,8 @@
     "build": "yarn run clean-dist && webpack --config=configs/webpack/prod.js",
     "clean-dist": "rimraf dist/*",
     "lint": "eslint './src/**/*.{js,ts,tsx}' --quiet",
-    "start": "webpack serve --config=configs/webpack/dev.js"
+    "start": "webpack serve --config=configs/webpack/dev.js",
+    "prettify": "prettier --write \"src/**/*.ts*\""
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
