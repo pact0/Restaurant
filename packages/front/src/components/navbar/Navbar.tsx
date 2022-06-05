@@ -24,12 +24,12 @@ export const Navbar = (props: {}) => {
             Placeholder
         </Typography>
         <Stack direction='row' spacing={2}>
-            <Button color="inherit" size="large" href="/home">Home</Button>
+            <Button color="inherit" size="large" href="/home">Strona główna</Button>
             <Button color="inherit" size="large" href="/menu">Menu</Button>
-            <Button color="inherit" size="large" href="/contact">Contact</Button>
-            <Button color="inherit" size="large" href="/about">About</Button>
+            <Button color="inherit" size="large" href="/contact">Kontakt</Button>
+            <Button color="inherit" size="large" href="/about">O nas</Button>
             <Button color="inherit" size="large" href="/login">Login</Button>
-            <Button color="inherit" size="large" href="/register">Register</Button>
+            <Button color="inherit" size="large" href="/register">Rejestracja</Button>
         </Stack>
 
         </Toolbar>
