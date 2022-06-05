@@ -19,7 +19,7 @@ export default function ProductDetailed({prod}) {
 
   const [value, setValue] = React.useState<number | null>(2);
     return (
-      <Container sx={{background:'#489BB7',height:'90vh',minWidth:'100%'}}>
+      <Container sx={{background:'#21242e',height:'90vh',minWidth:'100%'}}>
       <Container>         
       <Grid container spacing={2} sx={{minWidth:'75%'}}>
             <Grid item xs={12} sm={6} sx={{
@@ -32,7 +32,7 @@ export default function ProductDetailed({prod}) {
           }}>
             </Grid>
           
-            <Grid item xs={12} sm={6} sx={{background:'#81CE6E',mt:2,color:'black'}}>
+            <Grid item xs={12} sm={6} sx={{background:'#FFFFFF',mt:2,color:'black'}}>
 
             <Grid container>
             <Grid item sx={{mr:4}}>            
@@ -64,14 +64,14 @@ export default function ProductDetailed({prod}) {
 
 
 
-           <Typography sx ={{color: 'white',fontWeight: 300,fontSize:14,my:2}}>
+           <Typography sx ={{color: 'black',fontWeight: 300,fontSize:14,my:2}}>
               {prod.desc}
             </Typography>
 
-            <Typography sx ={{color: 'white',fontWeight: 500,fontSize:24}}>
+            <Typography sx ={{color: 'black',fontWeight: 500,fontSize:24}}>
             Alergeny
             </Typography>
- <Box sx={{ width: '100%', maxWidth: 360, bgcolor: '#81CE6E' }}>
+ <Box sx={{ width: '100%', maxWidth: 360, bgcolor: '#fff' }}>
        <nav aria-label="main mailbox folders">
          <List>
  {        Object.entries(prod.allergens)
