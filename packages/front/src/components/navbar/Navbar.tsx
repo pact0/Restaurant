@@ -1,4 +1,5 @@
 import { About } from "@components/about/About";
+import { Contact } from "@components/contact/Contact";
 import { MainPage } from "@components/home/MainPage";
 import Login from "../auth/Login";
 import Register from "../auth/Register";
@@ -62,7 +63,7 @@ export const Navbar = (props: {}) => {
         <Route path="/about" element={<About />} />
         <Route path="/home" element={<MainPage />} />
         <Route path="/menu" element={<ListingPage />} />
-        {/* <Route path="/contact" element={<Register />} /> */}
+        <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         {restaurant_menu.restaurant_menu.map((product: Product) => {
