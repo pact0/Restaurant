@@ -173,7 +173,7 @@ export const ListingPage = () => {
               </InputLabel>
               <Input
                 id="standard-adornment-amount"
-                value="0"
+                defaultValue="0"
                 startAdornment={
                   <InputAdornment position="start">$</InputAdornment>
                 }
@@ -188,7 +188,7 @@ export const ListingPage = () => {
               </InputLabel>
               <Input
                 id="standard-adornment-amount"
-                value="50"
+                defaultValue="50"
                 startAdornment={
                   <InputAdornment position="start">$</InputAdornment>
                 }

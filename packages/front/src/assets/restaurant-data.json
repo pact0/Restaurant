@@ -577,7 +577,7 @@
             "name": "SPECIAL TANDOORI NON-VEG PLATTER",
             "category": "TANDOORI APPETIZERS",
             "price": "81,00 zł",
-            "desc": "Zestaw przekąsek mięsnych z grilla: Kurczak Tikka (3 szt.), Udka Kurczaka (2 szt.), Kurczak z pieca Tikka (3 szt.), Łosoś Tikka (3 szt.), Krewetki z pieca (3 szt.).Set of Grilled Meat Snacks: Chicken Tikka (3pcs.), Chicken legs (2pcs.), Garlic Chicken Tikka (3pcs.), Salmon Fish Tikka (3pcs), Tandoori Prawns (3pcs.).",
+            "desc": "Zestaw przekąsek mięsnych z grilla",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/f3898f2c-c144-4be1-9e00-4d0c05c3d890.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C960%2C665&w=1920",
             "allergens": {
                 "lactose": 0,
@@ -1300,10 +1300,10 @@
         },
         {
             "id": 60,
-            "name": "Zestaw dla dwóch osób: 1X Dal Shorba  1X Chicken Lollipop (6szt.) 1X Butter Chicken  1X Garlic Naan 1X Rice Basmati  1X Gulab Jamun",
+            "name": "Zestaw dla dwóch osób:",
             "category": "ZESTAW",
             "price": "99,00 zł",
-            "desc": "",
+            "desc": "1X Dal Shorba  1X Chicken Lollipop (6szt.) 1X Butter Chicken  1X Garlic Naan 1X Rice Basmati  1X Gulab Jamun",
             "image": "https://restaumatic-production.imgix.net/uploads/media_library/e7b4b1d398966c883bd238bd91c443a8.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1140%2C150&w=1920",
             "allergens": {
                 "lactose": 1,
@@ -1322,10 +1322,10 @@
         },
         {
             "id": 61,
-            "name": "Zestaw dla trzech osób: 1X Warzywa Mix Pakora 1X Chicken Lollypop (6szt.) 1X Masala Papad 1X Chicken Tikka Masala 1X Chicken Korma 1X Butter Naan 1X Parantha 1X Rice basmati 1x Indian Kuchumbar Salad",
+            "name": "Zestaw dla trzech osób",
             "category": "ZESTAW",
             "price": "159,00 zł",
-            "desc": "",
+            "desc": "1X Warzywa Mix Pakora 1X Chicken Lollypop (6szt.) 1X Masala Papad 1X Chicken Tikka Masala 1X Chicken Korma 1X Butter Naan 1X Parantha 1X Rice basmati 1x Indian Kuchumbar Salad",
             "image": "https://restaumatic-production.imgix.net/uploads/media_library/5048edc7d031b35db2915b4ddbae3921.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C1140%2C150&w=1920",
             "allergens": {
                 "lactose": 0,
@@ -1344,10 +1344,10 @@
         },
         {
             "id": 62,
-            "name": "Zestaw dla czterech osób: 1X Mix -Veg Pakora 1X Veg Samosa (2szt.)   1X Chicken Lollipop (6szt.) 1X Butter Chicken  1X Balti Chicken   1X Paneer Jalfrezi  2X Garlic Naans  1x Jeera Rice  1x Indian Kuchumbar Salad  2X Gulab Jamun (4szt.)",
+            "name": "Zestaw dla czterech osób",
             "category": "ZESTAW",
             "price": "199,00 zł",
-            "desc": "",
+            "desc": "1X Mix -Veg Pakora 1X Veg Samosa (2szt.)   1X Chicken Lollipop (6szt.) 1X Butter Chicken  1X Balti Chicken   1X Paneer Jalfrezi  2X Garlic Naans  1x Jeera Rice  1x Indian Kuchumbar Salad  2X Gulab Jamun (4szt.)",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/c9e3a043-17f6-4838-83ad-ab092e734291.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C810%2C694&w=1920",
             "allergens": {
                 "lactose": 0,
@@ -1366,10 +1366,10 @@
         },
         {
             "id": 63,
-            "name": "Zestaw dla sześciu osób: 1X Chicken Lollipop (6szt.)  1X Chicken Manchurian 1X Bawarchi Special Pakora Platter [mix-veg (8szt.), chicken pakora (2szt.), paneer pakora (2szt.), prawns (2szt.)] 1X Dal Tadka  1x Chicken Jalgrezi  1X Bhuna Lamb Masala  1X Paneer Matar Mushroom  2X Pudina Naans  1X Garlic Naan  1X Onion Rice  1X Rice Basmati 2X Rasmalai (4 szt.) 1X Gulab Jamuns (2 szt.)",
+            "name": "Zestaw dla sześciu osób",
             "category": "ZESTAW",
             "price": "299,00 zł",
-            "desc": "",
+            "desc": "1X Chicken Lollipop (6szt.)  1X Chicken Manchurian 1X Bawarchi Special Pakora Platter [mix-veg (8szt.), chicken pakora (2szt.), paneer pakora (2szt.), prawns (2szt.)] 1X Dal Tadka  1x Chicken Jalgrezi  1X Bhuna Lamb Masala  1X Paneer Matar Mushroom  2X Pudina Naans  1X Garlic Naan  1X Onion Rice  1X Rice Basmati 2X Rasmalai (4 szt.) 1X Gulab Jamuns (2 szt.)",
             "image": "https://restaumatic-production.imgix.net/uploads/accounts/29190/media_library/5a5bbc7c-16a7-4c63-9f53-cfba2fcd1776.jpg?auto=compress&blur=0&crop=focalpoint&fit=max&fp-x=0.5&fp-y=0.5&h=auto&rect=0%2C0%2C960%2C750&w=1920",
             "allergens": {
                 "lactose": 0,

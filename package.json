@@ -23,5 +23,11 @@
     "lerna": "^4.0.0",
     "prettier": "^2.0.5",
     "typescript": "~3.7.2"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "react-easy-crop": "^4.2.0",
+    "react-image-crop": "^10.0.2",
+    "url-loader": "^4.1.1"
   }
 }
