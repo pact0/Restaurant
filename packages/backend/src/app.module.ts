@@ -1,12 +1,15 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
-import { AppService } from './app.service';
-import { CustomersModule } from './customers/customers.module';
-import { UsersModule } from './users/users.module';
+import { UserModule } from './user/user.module';
+import { OrderModule } from './orders/order.module';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { Connection } from 'typeorm';
 
 @Module({
-  imports: [CustomersModule, UsersModule],
+  imports: [TypeOrmModule.forRoot(), UserModule, OrderModule],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [],
 })
-export class AppModule {}
+export class ApplicationModule {
+  constructor(private readonly connection: Connection) {}
+}
