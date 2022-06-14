@@ -3,8 +3,10 @@ import { Contact } from "@components/contact/Contact";
 import { MainPage } from "@components/home/MainPage";
 import { Cart } from "@components/cart/Cart";
 import Login from "../auth/Login";
+import {ProfilePage} from "../auth/profilePage";
 import Register from "../auth/Register";
 import restaurant_menu from "@assets/restaurant-data.json";
+import Badge from '@mui/material/Badge';
 import { ListingPage } from "../products/ListingPage";
 import {
   AppBar,
@@ -61,16 +63,24 @@ export const Navbar = (props: {}) => {
           <Button color="inherit" size="large" href="/register">
             Rejestracja
           </Button>
+
+          
           <Button color="inherit" size="large" href="/cart">
+          <Badge badgeContent={4} color="primary">
             <ShoppingCartIcon /> 
+            </Badge>
           </Button>
+
+
+
+
         </Stack>
       </Toolbar>
       <Routes>
         <Route path="/about" element={<About />} />
         <Route path="/home" element={<MainPage />} />
         <Route path="/menu" element={<ListingPage />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<ProfilePage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/cart" element={<Cart />} />
