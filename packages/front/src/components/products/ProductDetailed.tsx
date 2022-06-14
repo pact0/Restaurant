@@ -12,6 +12,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/Inbox";
 import styles from "../../assets/Product_styles.module.css";
+import PriorityHighIcon from '@mui/icons-material/PriorityHigh';
 import Rating from "@mui/material/Rating";
 import * as React from "react";
 
@@ -40,6 +41,7 @@ export default function ProductDetailed({ prod }) {
             xs={12}
             sm={6}
             sx={{ background: "#FFFFFF", mt: 2, color: "black" }}>
+            <Box sx={{mb:4}}>
             <Grid container>
               <Grid item sx={{ mr: 4 }}>
                 <Typography
@@ -47,7 +49,9 @@ export default function ProductDetailed({ prod }) {
                   {prod.name}
                 </Typography>
               </Grid>
-              <Grid item>
+
+            </Grid>
+            <Grid item>
                 <Rating
                   name="simple-controlled"
                   value={value}
@@ -56,13 +60,26 @@ export default function ProductDetailed({ prod }) {
                   }}
                 />
               </Grid>
-            </Grid>
-
+              </Box>
             <Grid container>
               <Grid item sx={{ mr: 4 }}>
                 <span className={styles.price}>{prod.price} </span>
               </Grid>
-              <Grid item>
+
+            </Grid>
+
+            <Typography
+              sx={{
+                color: "black",
+                fontWeight: 300,
+                fontSize: 14,
+                py: 5,
+                pr: 5,
+                pl: 0,
+              }}>
+              {prod.desc}
+            </Typography>
+            <Grid item sx={{mb:3}}>
                 {" "}
                 <div className={styles.add}>
                   <input
@@ -73,21 +90,6 @@ export default function ProductDetailed({ prod }) {
                   <button className={styles.button}>Add to Cart</button>
                 </div>
               </Grid>
-            </Grid>
-
-            <Typography
-              sx={{
-                color: "black",
-                fontWeight: 300,
-                fontSize: 14,
-                my: 2,
-                py: 5,
-                pr: 5,
-                pl: 0,
-              }}>
-              {prod.desc}
-            </Typography>
-
             <Typography sx={{ color: "black", fontWeight: 500, fontSize: 24 }}>
               Alergeny
             </Typography>
@@ -99,7 +101,7 @@ export default function ProductDetailed({ prod }) {
                       <ListItem disablePadding>
                         <ListItemButton>
                           <ListItemIcon>
-                            <InboxIcon />
+                            <PriorityHighIcon />
                           </ListItemIcon>
                           <ListItemText primary={key} />
                         </ListItemButton>
