@@ -4,6 +4,7 @@ import { MainPage } from "@components/home/MainPage";
 import { Cart } from "@components/cart/Cart";
 import Login from "../auth/Login";
 import {ProfilePage} from "../auth/profilePage";
+import {Tracking} from "../order/tracking";
 import Register from "../auth/Register";
 import restaurant_menu from "@assets/restaurant-data.json";
 import Badge from '@mui/material/Badge';
@@ -81,6 +82,8 @@ export const Navbar = (props: {}) => {
         <Route path="/home" element={<MainPage />} />
         <Route path="/menu" element={<ListingPage />} />
         <Route path="/contact" element={<ProfilePage />} />
+        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/track" element={<Tracking />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/cart" element={<Cart />} />
