@@ -13,10 +13,13 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Typography from "@mui/material/Typography";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import LoginIcon from "@mui/icons-material/Login";
+import { useDispatch } from "react-redux";
+import { setUser } from "@reducers/userSlice";
 
 const theme = createTheme();
 
 export default function Login() {
+  const dispatch = useDispatch();
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -24,6 +27,16 @@ export default function Login() {
       email: data.get("email"),
       password: data.get("password"),
     });
+
+    dispatch(
+      setUser({
+        email: data.get("email"),
+        password: data.get("password"),
+        token: "dsjfkh3428hfjsek389h",
+        name: "admin",
+        role: "admin",
+      })
+    );
   };
 
   return (

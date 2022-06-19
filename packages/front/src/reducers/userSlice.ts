@@ -22,15 +22,17 @@ export const userSlice = createSlice({
   name: "user",
   initialState,
   reducers: {
-    setUser: (state, action: PayloadAction<string>) => {
-      const decoded = jwt_decode(action.payload) as {
-        role: string;
-        email: string;
-        name: string;
-      };
-      state.token = action.payload;
-      state.email = decoded.email;
-      state.name = decoded.role;
+    setUser: (state, action: PayloadAction<UserState>) => {
+      // const decoded = jwt_decode(action.payload) as {
+      //   role: string;
+      //   email: string;
+      //   name: string;
+      // };
+      const { email, role, token, name } = action.payload;
+      state.token = token;
+      state.email = email;
+      state.name = name;
+      state.role = role;
     },
     setEmail: (state, action: PayloadAction<string>) => {
       state.email = action.payload;

@@ -1,9 +1,17 @@
 import { configureStore } from "@reduxjs/toolkit";
 import userSlice from "@reducers/userSlice";
+import productsSlice from "./productsSlice";
+
+import { connectRouter} from "connected-react-router";
+import { createBrowserHistory } from "history";
+
+export const history = createBrowserHistory();
 
 export const store = configureStore({
   reducer: {
+    router: connectRouter(history),
     user: userSlice,
+    products: productsSlice,
   },
 });
 

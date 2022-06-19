@@ -11,7 +11,8 @@ import { Routes, Route } from "react-router-dom";
 import ProductDetailed from "../products/ProductDetailed";
 import Cropper from 'react-easy-crop';
 
-import logo from '../../assets/img/1.jpg'; 
+import { useAppDispatch } from "src";
+import { addProduct } from "@reducers/productsSlice";
 
 
 interface Props {
@@ -19,13 +20,11 @@ interface Props {
 }
 
 export const ProductCard = ({ product }: Props) => {
+  const disptch = useAppDispatch();
 
-  const [x, setX] = useState('../../assets/img/'.concat(product.id).concat('.jpg'))
-  
-  useEffect(() => {
-    setX('1.jpg');
-  }, []);
-
+  const handleAddProduct = () => {
+    disptch(addProduct(product));
+  }
 
 
   return (
@@ -65,6 +64,7 @@ export const ProductCard = ({ product }: Props) => {
         {product.price}
       </Typography>
       <Button
+        onClick = {handleAddProduct}
         sx={{ py: 2, mt: 2 }}
         type="submit"
         size="large"
