@@ -46,19 +46,19 @@ export const Contact = (props: {}) => {
           </Typography>
         </Box>
         <Box
-          sx={{ paddingRight: "34%", display: "flex", flexDirection: "column", alignItems: "center"}}>
+          sx={{display: "flex", flexDirection: "column", alignItems: "center"}}>
           <Typography sx={{ color: "black", fontWeight: 300, fontSize: 24 }}>
             Poniedziałek - Piątek: 9-18 
           </Typography>
         </Box>
         <Box
-          sx={{ paddingLeft: "4%", display: "flex", flexDirection: "column", alignItems: "center"}}>
+          sx={{display: "flex", flexDirection: "column", alignItems: "center"}}>
           <Typography sx={{ color: "black", fontWeight: 300, fontSize: 24 }}>
             Sobota: 12-20 
           </Typography>
         </Box>
         <Box
-          sx={{ paddingLeft: "30%", display: "flex", flexDirection: "column", alignItems: "center"}}>
+          sx={{display: "flex", flexDirection: "column", alignItems: "center"}}>
           <Typography sx={{ color: "black", fontWeight: 300, fontSize: 24 }}>
             Niedziela: 10-14 
           </Typography>

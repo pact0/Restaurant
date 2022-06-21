@@ -25,6 +25,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Container from "@mui/material/Container";
 import { useAppDispatch, useAppSelector } from "src";
 import { logout } from "@reducers/userSlice";
+import { Payment } from "../payment/Payment"
 
 export const Navbar = (props: {}) => {
   const store = useAppSelector((store) => store.products);
@@ -128,6 +129,8 @@ export const Navbar = (props: {}) => {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/payment" element={<Payment />} />
+
         {restaurant_menu.restaurant_menu.map((product: Product) => {
           var str1 = "/";
           var x = str1.concat(product.id);

@@ -8,6 +8,8 @@ import React, { useEffect, useState } from "react";
 import { Product } from "@models/Product";
 import { CartProductCard } from "./CartProductCard";
 import { useAppSelector } from "src";
+import { Payment } from '../payment/Payment';
+import { Routes, Route, Link } from "react-router-dom";
 
 export const Cart = () => {
   const store = useAppSelector((store) => store.products);
@@ -18,8 +20,14 @@ export const Cart = () => {
     setProducts(store.products);
   }, [store]);
 
+
+  function priceSum(products: any[]) {
+    var suma = products.reduce((a,v) =>  a = a + parseFloat(v.price.split(' ')[0].replace(',','.')) , 0 );
+    return suma;
+  };
+
   return (
-    <Container
+  <Container
       disableGutters
       maxWidth={false}
       sx={{
@@ -75,7 +83,7 @@ export const Cart = () => {
           spacing={0}
           sx={{
             width: "60%",
-            height: "61vh",
+            height: "40vh",
             overflowY: "scroll",
           }}>
           {products.map((product: Product) => {
@@ -90,14 +98,44 @@ export const Cart = () => {
           })}
         </Grid>
       </Box>
+
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          ml: "30%",
+          mt: 4,
+          width: "40%"
+        }}>
+
+      <Container
+      maxWidth="xs"
+      sx={{
+        background: `white`,
+        boxShadow: 3,
+        color: "black",
+        display: "flex",
+        alignItems: "center",
+        mt: 2,
+        p: 2,
+        borderRadius: 3,
+      }}>{"Suma: " + priceSum(products) + ",00 zł"}</Container>
+      
+      <Link to="/payment">
       <Button
-        sx={{ ml: "54%", mt: 2, alignItems: "center" }}
+        sx={{ mt: 2, alignItems: "center", borderRadius: 3}}
         type="submit"
         size="large"
         color="error"
         variant="contained">
         Przejdź do płatności
       </Button>
+      </Link>
+      </Box>
+      <Routes>
+        <Route path="/payment" element={<Payment />} />
+      </Routes>
     </Container>
   );
 };
