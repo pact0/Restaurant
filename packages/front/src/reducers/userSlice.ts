@@ -43,10 +43,16 @@ export const userSlice = createSlice({
     setToken: (state, action: PayloadAction<string>) => {
       state.token = action.payload;
     },
+    logout: (state) => {
+      state.token = "";
+      state.email = "";
+      state.name = "";
+      state.role = "";
+    },
   },
 });
 
-export const { setUser, setEmail, setRole, setToken } = userSlice.actions;
+export const { setUser, setEmail, setRole, setToken, logout } = userSlice.actions;
 
 // Other code such as selectors can use the imported `RootState` type
 // export const selectCount = (state: RootState) => state.counter.value;

@@ -23,15 +23,27 @@ import ProductDetailed from "../products/ProductDetailed";
 import { Product } from "@models/Product";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Container from "@mui/material/Container";
-import { useAppSelector } from "src";
+import { useAppDispatch, useAppSelector } from "src";
+import { logout } from "@reducers/userSlice";
 
 export const Navbar = (props: {}) => {
   const store = useAppSelector((store) => store.products);
+  const user = useAppSelector((store) => store.user);
+  const dispatch = useAppDispatch();
   const [badge, setBadge] = useState(0);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   useEffect(() => {
     setBadge(store.products.length);
   }, [store]);
+
+  useEffect(() => {
+    setIsLoggedIn(!!user.name);
+  }, [user]);
+
+  const handleLogout = ()=>{
+    dispatch(logout())
+  }
 
   return (
     <AppBar style={{ background: "#d42c2c", color: "white" }}>
@@ -75,21 +87,27 @@ export const Navbar = (props: {}) => {
             </Button>
           </Link>
 
-          <Link to="/login">
-            <Button sx={{ color: "white" }} size="large" href="/login">
-              Login
-            </Button>
-          </Link>
+          {!isLoggedIn && (
+            <>
+              <Link to="/login">
+                <Button sx={{ color: "white" }} size="large" href="/login">
+                  Login
+                </Button>
+              </Link>
 
-          <Link to="/register">
-            <Button sx={{ color: "white" }} size="large">
-              Rejestracja
-            </Button>
-          </Link>
+              <Link to="/register">
+                <Button sx={{ color: "white" }} size="large">
+                  Rejestracja
+                </Button>
+              </Link>
+            </>
+          )}
 
-          <Button sx={{ color: "white" }} size="large">
-            Wyloguj
-          </Button>
+          {isLoggedIn && (
+            <Button onClick={handleLogout} sx={{ color: "white" }} size="large">
+              Wyloguj
+            </Button>
+          )}
 
           <Link to="/cart">
             <Button sx={{ color: "white" }} size="large">
